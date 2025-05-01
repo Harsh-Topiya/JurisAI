@@ -46,6 +46,7 @@ nltk.download('wordnet')
 
 # Load the synthetic dataset
 try:
+    # expanded_df = pd.read_csv('data/synthetic_fir_dataset.csv')
     expanded_df = pd.read_csv('data/synthetic_fir_dataset.csv')
     print(f"Synthetic dataset loaded with {len(expanded_df)} records")
 except FileNotFoundError:

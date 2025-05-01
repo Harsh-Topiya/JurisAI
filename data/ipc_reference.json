@@ -111,7 +111,7 @@
         "bailable": "Bailable",
         "court": "Any Magistrate"
     },
-    "Section 121": {
+    "Section 121A": {
         "description": "Description of IPC Section 121A According to section 121A of Indian penal code, Whoever within or without India conspires to commit any of the offences punishable by section 121, or conspires to overawe, by means of criminal force or the show of criminal force, the Central Government or any State Government, shall be punished with imprisonment for life, or with imprisonment of either description which may extend to ten years, and shall also be liable to fine. IPC 121A in Simple Words Section 121A of the Indian Penal Code states that anyone who conspires to commit certain serious offences or intends to use criminal force against the Central Government or any State Government may face punishment of life imprisonment or imprisonment up to ten years, along with a possible fine.",
         "offense": "Conspiring to commit certain offences against the State",
         "punishment": "Imprisonment for Life or 10 Years + Fine",
@@ -128,6 +128,14 @@
         "court": "Court of Session"
     },
     "Section 124": {
+        "description": "Description of IPC Section 124 According to section 124 of Indian penal code, Whoever, with the intention of inducing or compelling the President of India, or Governor of any State, to exercise or refrain from exercising in any manner any of the lawful powers of such President or Governor, assaults or wrongfully restrains, or attempts wrongfully to restrain, or overawes, by means of criminal force or the show of criminal force, or attempts so to overawe, such President or Governor, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. IPC 124 in Simple Words If someone assaults or wrongfully restrains the President of India or Governor of a State with the intention of influencing their lawful powers, they can be punished with imprisonment of up to seven years and may also be fined.",
+        "offense": "Assaulting President, Governor, etc., with intent to compel or restrain the exercise of any lawful power",
+        "punishment": "7 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 124A": {
         "description": "Description of IPC Section 124A According to section 124A of Indian penal code, Whoever by words, either spoken or written, or by signs, or by visible representation, or otherwise, brings or attempts to bring into hatred or contempt, or excites or attempts to excite disaffection towards, the Government established by law in India, a shall be punished with imprisonment for life, to which fine may be added, or with imprisonment which may extend to three years, to which fine may be added, or with fine. IPC 124A in Simple Words Section 124A of the Indian Penal Code punishes those who attempt to bring hatred, contempt, or disaffection towards the Government of India through spoken or written words, signs, or visible representations, with either life imprisonment or imprisonment up to three years, along with a possible fine.",
         "offense": "Sedition",
         "punishment": "Imprisonment for Life + Fine or 3 Years + Fine or Fine",
@@ -152,6 +160,30 @@
         "court": "Court of Session"
     },
     "Section 153": {
+        "description": "Description of IPC Section 153 According to section 153 of Indian penal code, Whoever malignantly, or wantonly by doing anything which is illegal, gives provocation to any person intending or knowing it to be likely that such provocation will cause the offence of rioting to be committed, shall, if the offence of rioting be committed in consequence of such provocation, be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both, and if the offence of rioting be not committed, with imprisonment of either description for a term which may extend to six months, or with fine, or with both. IPC 153 in Simple Words If someone intentionally provokes another person in a way that may lead to a riot, they can be punished with up to one year in jail, a fine, or both if a riot occurs, and up to six months in jail, a fine, or both if a riot doesn't happen.",
+        "offense": "Wantonly giving provocation with intent to cause riot, If rioting be committed",
+        "punishment": "1 Year or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 153A": {
+        "description": "Description of IPC Section 153A According to section 153A of Indian penal code, Whoever by words, either spoken or written, or by signs or by visible representations or otherwise, promotes or attempts to promote, on grounds of religion, race, place of birth, residence, language, caste or community or any other ground whatsoever, disharmony or feelings of enmity, hatred or ill-will between different religious, racials, language or regional groups or castes or communities, or commits any act which is prejudicial to the maintenance of harmony between different religious, racial, language or regional groups or castes or communities, and which disturbs or is likely to disturb the public tranquility, or organizes any exercise, movement, drill or other similar activity intending that the participants in such activity shall use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, or participates in such activity intending to use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, against any religious, racial, language or regional group or caste or community and such activity for any reason whatsoever causes or is likely to cause fear or alarm or a feeling of insecurity amongst members of such religious, racial, language or regional group or caste or community, shall be punished with imprisonment which may extend to three years, or with fine, or with both. Offence committed in place of worship, etc \u00e2\u20ac\u201d Whoever commits an offence specified in sub-section (1) in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine. IPC 153A in Simple Words Section 153A of the Indian Penal Code punishes those who promote disharmony or feelings of hatred between different religious, racial, language, or regional groups, or engage in acts prejudicial to maintaining harmony, with imprisonment up to three years, or fine, or both, and up to five years of imprisonment with fine if the offence is committed in a place of worship or during religious ceremonies.",
+        "offense": "Promoting enmity between classes",
+        "punishment": "3 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 153AA": {
+        "description": "Description of IPC Section 153AA According to section 153AA of Indian penal code, Whoever by words, either spoken or written, or by signs or by visible representations or otherwise, promotes or attempts to promote, on grounds of religion, race, place of birth, residence, language, caste or community or any other ground whatsoever, disharmony or feelings of enmity, hatred or ill-will between different religious, racials, language or regional groups or castes or communities, or commits any act which is prejudicial to the maintenance of harmony between different religious, racial, language or regional groups or castes or communities, and which disturbs or is likely to disturb the public tranquility, or organizes any exercise, movement, drill or other similar activity intending that the participants in such activity shall use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, or participates in such activity intending to use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, against any religious, racial, language or regional group or caste or community and such activity for any reason whatsoever causes or is likely to cause fear or alarm or a feeling of insecurity amongst members of such religious, racial, language or regional group or caste or community, shall be punished with imprisonment which may extend to three years, or with fine, or with both. Offence committed in place of worship, etc \u00e2\u20ac\u201d Whoever commits an offence specified in sub-section (1) in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine. IPC 153AA in Simple Words Section 153AA of the Indian Penal Code punishes those who promote or attempt to promote disharmony or hatred between different religious, racial, language, or regional groups, or engage in activities intending to use criminal force or violence against any such group, with imprisonment up to three years, or fine, or both, and up to five years of imprisonment with fine if the offence is committed in a place of worship or during religious ceremonies.",
+        "offense": "Promoting enmity between classes",
+        "punishment": "3 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 153B": {
         "description": "Description of IPC Section 153B According to section 153B of Indian penal code, Whoever, by words either spoken or written or by signs or by visible representations or otherwise: makes or publishes any imputation that any class of persons cannot, by reason of their being members of any religious, racial, language or regional group or caste or community, bear true faith and allegiance to the Constitution of India as by law established or uphold the sovereignty and integrity of India, or asserts, counsels, advises, propagates or publishes that any class of persons by reason of their being members of any religious, racial, language or regional group or caste or community be denied, or deprived of their rights as citizens of India, or makes or publishes and assertion, counsel, plea or appeal concerning the obligation of any class of persons, by reason of their being members of any religious, racial, language or regional group or caste or community, and such assertion, counsel, plea or appeal causes or is likely to cause disharmony or feelings of enmity or hatred or ill-will between such members and other persons, shall be punished with imprisonment which may extend to three years, or with fine, or with both. Whoever commits an offence specified in sub-section (1), in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine. IPC 153B in Simple Words Section 153B of the Indian Penal Code punishes those who make or publish statements that promote disharmony or hatred between different religious, racial, language, or regional groups, with imprisonment up to three years or a fine, and imprisonment up to five years with fine if the offence is committed in a place of worship or during religious ceremonies.",
         "offense": "Imputations, assertions prejudicial to national integration",
         "punishment": "3 Years or Fine or Both",
@@ -201,11 +233,11 @@
     },
     "Section 159": {
         "description": "Description of IPC Section 159 According to section 159 of Indian penal code, When two or more persons, by fighting in a public place, disturb the public peace, they are said to \u201ccommit an affray\u201d. IPC 159 in Simple Words When two or more people get into a public fight that disturbs the peace, they are said to have committed an affray.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 145": {
         "description": "Description of IPC Section 145 According to section 145 of Indian penal code, Whoever joins or continues in an unlawful assembly, knowing that such unlawful assembly has been commanded in the manner prescribed by law to disperse, shall be punished with imprisonment of either description for a term which may extent to two years, or with fine, or with both. IPC 145 in Simple Words If someone knowingly stays in an unlawful assembly after being commanded by law to disperse, they can be punished with up to two years in jail, a fine, or both. Cited by Seth Ramdayal Jat vs Laxmi Prasad Bharat Soni Etc vs State Of Chhatisgarh Devendra and Ors vs State Of Uttar Pradesh and Anr Nevada Properties Pvt Ltd vs The State Of Maharashtra Anup Lal Yadav And Anr vs State Of Bihar",
@@ -256,6 +288,14 @@
         "court": "Magistrate First Class"
     },
     "Section 165": {
+        "description": "Description of IPC Section 165 According to section 165 of Indian penal code, Repealed by the Prevention of Corruption Act, 1988 IPC 165 in Simple Words Section 165 of the Indian Penal Code was removed from the law by the Prevention of Corruption Act, 1988.",
+        "offense": "Public servant obtaining any valuable thing, without consideration, From a person concerned in any proceeding or business transacted by Such public servant",
+        "punishment": "3 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 165A": {
         "description": "Description of IPC Section 165A According to section 165A of Indian penal code, Repealed by the Prevention of Corruption Act, 1988 IPC 165A in Simple Words Section 165A of the Indian Penal Code was repealed by the Prevention of Corruption Act, 1988.",
         "offense": "Punishment for abetment of offences punishable under section 161 or section 165",
         "punishment": "3 Years or Fine or Both",
@@ -264,20 +304,36 @@
         "court": "Magistrate First Class"
     },
     "Section 166": {
+        "description": "Description of IPC Section 166 According to section 166 of Indian penal code, Whoever, being a public servant, knowingly disobeys any direction of the law as to the way in which he is to conduct himself as such public servant, intending to cause, or knowing it to be likely that he will, by such disobedience, cause injury to any person, shall be punished with simple imprisonment for a term which may extend to one year, or with fine, or with both. IPC 166 in Simple Words If a public servant deliberately disobeys the law while performing their duties and causes harm to someone as a result, they can be punished with up to one year in jail, a fine, or both.",
+        "offense": "Public servant disobeying a direction of the law with intent to cause injury to any person",
+        "punishment": "Simple Imprisonment for 1 Year or Fine or Both",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 166A": {
+        "description": "Description of IPC Section 166A According to section 166A of Indian penal code, \"[Whoever, being a public servant,\u00e2\u20ac\u201d (a) knowingly disobeys any direction of the law which prohibits him from requiring the attendance at any place of any person for the purpose of investigation into an offence or any other matter, or (b) knowingly disobeys, to the prejudice of any person, any other direction of the law regulating the manner in which he shall conduct such investigation, or (c) fails to record any information given to him under sub-section (1) of section 154 of the Code of Criminal Procedure, 1973 (2 of 1974), in relation to cognizable offence punishable under section 326A, section 326B, section 354, section 354B, section 370, section 370A, section 376, section 376A, 2[section 376AB, section 376B, section 376C, section 376D, section 376DA, section 376DB], section 376E or section 509, shall be punished with rigorous imprisonment for a term which shall not be less than six months but which may extend to two years, and shall also be liable to fine.\"",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 166B": {
         "description": "Description of IPC Section 166B According to section 166B of Indian penal code, Whoever, being in charge of a hospital, public or private, whether run by the Central Government, the State Government, local bodies or any other person, contravenes the provisions of section1 357C of the Code of Criminal Procedure, 1973, shall be punished with imprisonment for a term which may extend to one year or with fine or with both.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 146": {
         "description": "Description of IPC Section 146 According to section 146 of Indian penal code, Whenever force or violence is used by an unlawful assembly, or by any member thereof, in prosecution of the common object of such assembly, every member of such assembly is guilty of the offence of rioting. IPC 146 in Simple Words If an unlawful assembly uses force or violence to achieve their common goal, every member of that assembly is considered guilty of the offense of rioting.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 167": {
         "description": "Description of IPC Section 167 According to section 167 of Indian penal code, Whoever, being a public servant, and being, as such public servant, charged with the preparation or translation of any document, frames or translates that document in a manner which he knows or believes to be incorrect, intending thereby to cause or knowing it to be likely that he may thereby cause injury to any person, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 167 in Simple Words If a public servant, responsible for preparing or translating a document, intentionally creates it inaccurately to cause harm to someone, they can be punished with up to three years in jail, a fine, or both.",
@@ -312,9 +368,49 @@
         "court": "Any Magistrate"
     },
     "Section 171": {
-        "description": "Description of IPC Section 171I According to section 171I of Indian penal code, Whoever being required by any law for the time being in force or any rule having the force of law to keep accounts of expenses incurred at or in connection with an election fails to keep such accounts shall be punished with fine which may extend to five hundred rupees. IPC 171I in Simple Words Section 171I of the Indian Penal Code states that if someone, who is obligated by law or rules to maintain accounts of election-related expenses, fails to do so, they can be fined up to five hundred rupees.",
-        "offense": "Failure to keep election accounts",
-        "punishment": "Fine",
+        "description": "Description of IPC Section 171 According to section 171 of Indian penal code, Wearing garb or carrying token used by public servant with fraudulent intent.\u2014Whoever, not belonging to a certain class of public servants, wears any garb or carries any token resembling any garb or token used by that class of public servants, with the intention that it may be believed, or with the knowledge that it is likely to be believed, that he belongs to that class of public servants, shall be punished with imprisonment of either descrip\u00adtion for a term which may extend to three months, or with fine which may extend to two hundred rupees, or with both. IPC 171 in Simple Words If a person evades a summons or notice from a public servant, they can be punished with up to one month in jail, a fine of up to five hundred rupees, or both; and if the requirement is to appear in court or produce a document, the punishment can be up to six months in jail, a fine of up to one thousand rupees, or both.",
+        "offense": "As described",
+        "punishment": "3 Months or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 171A": {
+        "description": "Description of IPC Section 171A According to section 171A of Indian penal code, For the purposes of this Chapter: \u201ccandidate\u201d means a person who has been nominated as a candidate at any election; \u201celectoral right\u201d means the right of a person to stand, or not to stand as, or to withdraw from being, a candidate or to vote or refrain from voting at an election. IPC 171A in Simple Words Section 171A of the Indian Penal Code defines the terms \"candidate\" and \"electoral right\" for the purpose of this chapter, where \"candidate\" refers to a nominated person for an election, and \"electoral right\" means the right to stand as a candidate, vote, or withdraw from being a candidate.",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 171B": {
+        "description": "Description of IPC Section 171B According to section 171B of Indian penal code, Whoever: gives a gratification to any person with the object of inducing him or any other person to exercise any electoral right or of rewarding any person for having exercised any such right; or accepts either for himself or for any other person any gratification as a reward for exercising any such right or for inducing or attempting to induce any other person to exercise any such right, commits the offence of bribery; Provided that a declaration of public policy or a promise of public action shall not be an offence under this section. A person who offers, or agrees to give, or offers or attempts to procure, a gratification shall be deemed to give a gratification. A person who obtains or agrees to accept or attempts to obtain a gratification shall be deemed to accept a gratification, and a person who accepts a gratification as a motive for doing what he does not intend to do, or as a reward for doing what he has not done, shall be deemed to have accepted the gratification as a reward. IPC 171B in Simple Words Section 171B of the Indian Penal Code states that giving or accepting gratification with the intention of influencing someone's electoral right is considered bribery, except for declarations of public policy or promises of public action.",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 171C": {
+        "description": "Description of IPC Section 171C According to section 171C of Indian penal code, Whoever voluntarily interferes or attempts to interfere with the free exercise of any electoral right commits the offence of undue influence at an election. Without prejudice to the generality of the provisions of sub-section (1), whoever threatens any candidate or voter, or any person in whom a candidate or voter is interested, with injury of any kind, or induces or attempts to induce a candidate or voter to believe that he or any person in whom he is interested will become or will be rendered an object of Divine displeasure or of spiritual censure, shall be deemed to interfere with the free exercise of the electoral right of such candidate or voter, within the meaning of sub-section (1). A declaration of public policy or a promise of public action, or the mere exercise or a legal right without intent to interfere with an electoral right, shall not be deemed to be interference within the meaning of this section. IPC 171C in Simple Words Section 171C of the Indian Penal Code states that anyone who voluntarily interferes or attempts to interfere with someone's free exercise of their electoral right commits the offence of undue influence at an election, which includes threatening or inducing a candidate or voter in any way that affects their voting freedom.",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 171D": {
+        "description": "Description of IPC Section 171D According to section 171D of Indian penal code, Whoever at an election applies for a voting paper on votes in the name of any other person, whether living or dead, or in a fictitious name, or who having voted once at such election applies at the same election for a voting paper in his own name, and whoever abets, procures or attempts to procure the voting by any person in any such way, commits the offence of personation at an election. IPC 171D in Simple Words Section 171D of the Indian Penal Code states that anyone who applies for a voting paper in someone else's name or uses a fictitious name to vote, or tries to vote more than once in the same election, and anyone who helps or encourages such actions, commits the offence of personation at an election.",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 171E": {
+        "description": "Description of IPC Section 171E According to section 171E of Indian penal code, Whoever commits the offence of bribery shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both; Provided that bribery by treating shall be punished with fine only. IPC 171E in Simple Words If someone commits bribery, they can be punished with up to one year of imprisonment, a fine, or both, except for bribery by treating, which is punishable by a fine only.",
+        "offense": "Bribery",
+        "punishment": "1 Year or Fine or Both, or if treating only, fine only",
         "cognizable": "Non-Cognizable",
         "bailable": "Bailable",
         "court": "Magistrate First Class"
@@ -326,6 +422,38 @@
         "cognizable": "Cognizable",
         "bailable": "Bailable",
         "court": "Any Magistrate"
+    },
+    "Section 171F": {
+        "description": "Description of IPC Section 171F According to section 171F of Indian penal code, Whoever commits the offence of undue influence or personation at an election shall be punished with imprisonment of either description for a term which may extend to one year or with fine, or with both. IPC 171F in Simple Words Section 171F of the Indian Penal Code states that anyone who engages in undue influence or personation at an election may be punished with imprisonment up to one year or fined, or both.",
+        "offense": "Undue influence at an election",
+        "punishment": "1 Year or Fine or Both",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 171G": {
+        "description": "Description of IPC Section 171G According to section 171G of Indian penal code, Whoever with intent to affect the result of an election makes or publishes any statement purporting to be a statement of fact which is false and which he either knows or believes to be false or does not believe to be true, in relation to the personal character or conduct of any candidate shall be punished with fine. IPC 171G in Simple Words Section 171G of the Indian Penal Code states that anyone who knowingly spreads false information about a candidate's personal character or conduct with the intention of influencing the election outcome may be fined.",
+        "offense": "False statement in connection with an election",
+        "punishment": "Fine",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 171H": {
+        "description": "Description of IPC Section 171H According to section 171H of Indian penal code, Whoever without the general or special authority in writing of a candidate incurs or authorizes expenses on account of the holding of any public meeting, or upon any advertisement, circular or publication, or in any other way whatsoever for the purpose of promoting or procuring the election of such candidate, shall be punished with fine which may extend to five hundred rupees; Provided that if any person having incurred any such expenses not exceeding the amount of ten rupees without authority obtains within ten days from the date on which such expenses were incurred the approval in writing of the candidate, he shall be deemed to have incurred such expenses with the authority of the candidate. IPC 171H in Simple Words Section 171H of the Indian Penal Code states that anyone who spends money on public meetings, advertisements, or other activities to promote a candidate's election without the candidate's authorization may be fined up to five hundred rupees, but if the candidate approves the expenses within ten days, it will be considered authorized.",
+        "offense": "Illegal payments in connection with elections",
+        "punishment": "Fine",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 171I": {
+        "description": "Description of IPC Section 171I According to section 171I of Indian penal code, Whoever being required by any law for the time being in force or any rule having the force of law to keep accounts of expenses incurred at or in connection with an election fails to keep such accounts shall be punished with fine which may extend to five hundred rupees. IPC 171I in Simple Words Section 171I of the Indian Penal Code states that if someone, who is obligated by law or rules to maintain accounts of election-related expenses, fails to do so, they can be fined up to five hundred rupees.",
+        "offense": "Failure to keep election accounts",
+        "punishment": "Fine",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
     },
     "Section 172": {
         "description": "Description of IPC Section 172 According to section 172 of Indian penal code, Whoever absconds in order to avoid being served with a summons, notice or order proceeding from any public servant legally competent, as such public servant, to issue such summons, notice or order, shall be punished with simple imprisonment for a term which may extend to one month, or with fine which may extend to five hundred rupees, or with both; or, if the summons or notice or order is to attend in person or by agent, or to produce a document in a Court of Justice, with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both. IPC 172 in Simple Words If someone runs away to avoid receiving a summons, notice, or order from a public servant, they can be punished with up to one month in jail, a fine of up to five hundred rupees, or both; and if the requirement is to appear in a Court of Justice or produce a document, the punishment can be up to six months in jail, a fine of up to one thousand rupees, or both.",
@@ -344,6 +472,14 @@
         "court": "Any Magistrate"
     },
     "Section 174": {
+        "description": "Description of IPC Section 174 According to section 174 of Indian penal code, Whoever, being legally bound to attend in person or by an agent at a certain place and time in obedience to a summons, notice, order, or proclamation proceeding from any public servant legally competent, as such public servant, to issue the same, intentionally omits to attend at that place or time, or departs from the place where he is bound to attend before the time at which it is lawful for him to depart, shall be punished with simple imprisonment for a term which may extend to one month, or with fine which may extend to five hundred rupees, or with both; or, if the summons, notice, order or proclamation is to attend in person or by agent in a Court of Justice, with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both. IPC 174 in Simple Words If someone is legally required to appear at a certain place and time in response to a summons, notice, order, or proclamation from a public servant but intentionally fails to attend or leaves before the allowed time, they can be punished with up to one month in jail, a fine of up to five hundred rupees, or both; and if the requirement is to appear in a Court of Justice, the punishment can be up to six months in jail, a fine of up to one thousand rupees, or both.",
+        "offense": "Not obeying a legal order to attend at a certain place in person or by agent, or departing therefrom without authority",
+        "punishment": "Simple Imprisonment for 1 Month or Fine or Both",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 174A": {
         "description": "Description of IPC Section 174A According to section 174A of Indian penal code, Whoever fails to appear at the specified place and the specified time as required by a proclamation published under sub? section (1) of section 82 of the Code of Criminal Procedure, 1973, shall be punished with imprisonment for a term which may extend to three years or with fine or with both, and where a declaration has been made under sub? section (4) of that section pronouncing him as a proclaimed offender, he shall be punished with imprisonment for a term which may extend to seven years and shall also be liable to fine. IPC 174A in Simple Words If someone doesn't appear at the specified place and time as required by a proclamation published under section 82 of the Code of Criminal Procedure, they can be punished with up to three years of imprisonment, a fine, or both; if declared a proclaimed offender, the punishment can be up to seven years of imprisonment and a fine.",
         "offense": "Failure to appear at specified place and specified time as required by a proclamation published under Sub-Section 1 of section 82 of this Code",
         "punishment": "3 Years or Fine or Both",
@@ -528,6 +664,22 @@
         "court": "Any Magistrate"
     },
     "Section 225": {
+        "description": "Description of IPC Section 225 According to section 225 of Indian penal code, Whoever intentionally offers any resistance or illegal obstruction to the lawful apprehension of any other person for an offence, or rescues or attempts to rescue any other person from any custody in which that person is lawfully detained for an offence, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both; or, if the person to be apprehended, or the person rescued or attempted to be rescued, is charged with or liable to be apprehended for an offence punishable with imprisonment for life or imprisonment for a term which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; or, if the person to be apprehended or rescued, or attempted to be rescued, is charged with or liable to be apprehended for an offence punishable with death, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; or, if the person to be apprehended or rescued, or attempted to be rescued, is liable under the sentence of a Court of Justice, or by virtue of a commutation of such a sentence, to imprisonment for life, or imprisonment, for a term of ten years or upwards, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; or, if the person to be apprehended or rescued, or attempted to be rescued, is under sentence of death, shall be punished with 1imprisonment for life or imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine. IPC 225 in Simple Words In simple words, Section 225 of the Indian Penal Code states that anyone who intentionally resists the lawful arrest of another person or tries to rescue someone lawfully detained for an offense can face imprisonment up to two years, and if the offense involved carries more severe punishment, the imprisonment can be up to three to seven years, along with a fine.",
+        "offense": "Resistance or obstruction to the lawful apprehension of any person, or, rescuing him from lawful custody",
+        "punishment": "2 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 225A": {
+        "description": "Description of IPC Section 225A According to section 225A of Indian penal code, Whoever, being a public servant legally bound as such public servant to apprehend, or to keep in confinement, any person in any case not provided for in section 221, section 222 or section 223, or in any other law for the time being in force, omits to apprehend that person or suffers him to escape from confinement, shall be punished: if he does so intentionally, with imprisonment of either description for a term which may extend to three years, or with fine or with both; and if he does so negligently, with simple imprisonment for a term which may extend to two years, or with fine, or with both. IPC 225A in Simple Words Section 225A of the Indian Penal Code states that if a public servant fails to apprehend or keep someone in confinement when legally bound to do so, they can be punished with imprisonment up to three years (if intentional) or up to two years (if negligent), or with a fine, or both.",
+        "offense": "Omission to apprehend, or sufferance of escape on part of public servant, in cases not otherwise provided for, In case of intentional omission or sufferance",
+        "punishment": "3 Years or Fine or Both",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 225B": {
         "description": "Description of IPC Section 225B According to section 225B of Indian penal code, Whoever, in any case not provided for in section 224 or section 225 or in any other law for the time being in force, intentionally offers any resistance or illegal obstruction to the lawful apprehension of himself or of any other person, or escapes or attempts to escape from any custody in which he is lawfully detained, or rescues or attempts to rescue any other person from any custody in which that person is lawfully detained, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both. IPC 225B in Simple Words Section 225B of the Indian Penal Code states that anyone who intentionally resists or obstructs their own or someone else's lawful arrest, escapes from lawful custody, or tries to rescue someone from lawful custody can be punished with imprisonment up to six months, a fine, or both.",
         "offense": "Resistance or obstruction to lawful apprehension, or escape or rescue in cases not otherwise provided for",
         "punishment": "6 Months or Fine or Both",
@@ -537,27 +689,27 @@
     },
     "Section 226": {
         "description": "Description of IPC Section 226 According to section 226 of Indian penal code, Repealed by the Code of Criminal Procedure (Amendment) Act, 1955 (26 of 1955), s. 117 and Sch. IPC 226 in Simple Words In simple words, Section 226 of the Indian Penal Code has been repealed by the Code of Criminal Procedure (Amendment) Act, 1955 (26 of 1955), section 117 and Schedule.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 191": {
         "description": "Description of IPC Section 191 According to section 191 of Indian penal code, Whoever, being legally bound by an oath or by an express provision of law to state the truth, or being bound by law to make a declaration upon any subject, makes any statement which is false, and which he either knows or believes to be false or does not believe to be true, is said to give false evidence. IPC 191 in Simple Words In simple words, Section 191 of the Indian Penal Code defines \"\"giving false evidence\"\" as making a false statement while being legally obligated to tell the truth or provide accurate information.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 192": {
         "description": "Description of IPC Section 192 According to section 192 of Indian penal code, Whoever causes any circumstance to exist or makes any false entry in any book or record, or makes any document containing a false statement, intending that such circumstance, false entry or false statement may appear in evidence in a judicial proceeding, or in a proceeding taken by law before a public servant as such, or before an arbitrator, and that such circumstance, false entry or false statement, so appearing in evidence, may cause any person who in such proceeding is to form an opinion upon the evidence, to entertain an erroneous opinion touching any point material to the result of such proceeding is said \u201cto fabricate false evidence\u201d. IPC 192 in Simple Words In simple words, Section 192 of the Indian Penal Code defines \"\"fabricating false evidence\"\" as causing false information to be present in a record or document with the intention that it may be used in a judicial or legal proceeding, leading to a wrong conclusion.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 193": {
         "description": "Description of IPC Section 193 According to section 193 of Indian penal code, Whoever intentionally gives false evidence in any of a judicial proceeding, or fabricates false evidence for the purpose of being used in any stage of a judicial proceeding, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; and whoever intentionally gives or fabricates false evidence in any other case, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine. IPC 193 in Simple Words In simple words, Section 193 of the Indian Penal Code states that giving false evidence or fabricating false evidence in a judicial proceeding can lead to imprisonment of up to seven years and a fine, while doing so in any other case can result in imprisonment of up to three years and a fine.",
@@ -576,6 +728,14 @@
         "court": "Court of Session"
     },
     "Section 195": {
+        "description": "Description of IPC Section 195 According to section 195 of Indian penal code, Whoever gives or fabricates false evidence intending thereby to cause, or knowing it to be likely that he will thereby cause, any person to be convicted of an offence which by the law for the time being in force in India is not capital, but punishable with imprisonment for life, or imprisonment for a term of seven years or upwards, shall be punished as a person convicted of that offence would be liable to be punished. IPC 195 in Simple Words In simple words, Section 195 of the Indian Penal Code states that if someone provides false evidence to get another person convicted of a non-capital offence punishable with life imprisonment or a term of seven years or more, they will be punished as if they had committed that offence themselves.",
+        "offense": "Giving or fabricating false evidence with intent to procure conviction of an offence punishable with imprisonment for life or with imprisonment for 7 Years or upwards",
+        "punishment": "Same As Offence",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Court of Session"
+    },
+    "Section 195A": {
         "description": "Description of IPC Section 195A According to section 195A of Indian penal code, Whoever threatens another with any injury to his person, reputation or property or to the person or reputation of anyone in whom that person is interested, with intent to cause that person to give false evidence shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both; and if an innocent person is convicted and sentenced in consequence of such false evidence, with death or imprisonment for more than seven years, the person who threatens shall be punished with the same punishment and sentenced in the same manner and to the same extent as such innocent person is punished and sentenced. IPC 195A in Simple Words If someone threatens another person to give false evidence, they can be punished with up to seven years of imprisonment, a fine, or both; if an innocent person is wrongly convicted due to the false evidence and receives a severe punishment, the one who threatened will receive the same punishment.",
         "offense": "Threatening any person to give false evidence",
         "punishment": "7 Years or Fine or Both",
@@ -744,12 +904,28 @@
         "court": "Magistrate First Class"
     },
     "Section 216": {
+        "description": "Description of IPC Section 216 According to section 216 of Indian penal code, Whenever any person convicted of or charged with an offence, being in lawful custody for that offence, escapes from such custody, or whenever a public servant, in the exercise of the lawful powers of such public servant, orders a certain person to be apprehended for an offence, whoever, knowing of such escape or order for apprehension, harbours or conceals that person with the intention of preventing him from being apprehended, shall be punished in the manner following, that is to say: if a capital offence \u2014 if the offence for which the person was in custody or is ordered to be apprehended is punishable with death, he shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; if punishable with imprisonment for life, or with imprisonment \u2014 if the offence is punishable with imprisonment for life or imprisonment for ten years, he shall be punished with imprisonment of either description for a term which may extend to three years, with or without fine; and if the offence is punishable with imprisonment which may extend to one year and not to ten years, he shall be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of the imprisonment provided for such offence or with fine, or with both. \u201cOffence\u201d in this section includes also any act or omission of which a person is alleged to have been guilty out of India, which, if he had been guilty of it in India, would have been punishable as an offence, and for which he is, under any law relating to extradition, or otherwise liable to be apprehended or detained in custody in India, and every such act or omission shall, for the purposes of this section, be deemed to be punishable as if the accused person had been guilty of it in India. IPC 216 in Simple Words In simple words, Section 216 of the Indian Penal Code states that if someone helps a person, who is in custody for a serious offense or ordered to be apprehended, to escape or hides them with the intention of preventing their arrest, they can face different punishments based on the severity of the offense, ranging from up to seven years of imprisonment and fine for capital offenses to up to three years of imprisonment with or without fine for offenses punishable with life imprisonment or ten years, and one-fourth part of the longest term of imprisonment provided for less serious offenses or fine, or both. This section also includes acts or omissions committed outside India that would be punishable as offenses in India, and the punishment will be as if the accused person committed those acts or omissions in India.",
+        "offense": "Harbouring an offender who has escaped from custody, or whose apprehension has been ordered, If the offence be capital",
+        "punishment": "7 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 216A": {
+        "description": "Description of IPC Section 216A According to section 216A of Indian penal code, Whoever, knowing or having reason to believe that any persons are about to commit or have recently committed robbery or dacoity, harbours them or any of them, with the intention of facilitating the commission of such robbery or dacoity or of screening them or any of them from punishment, shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine. IPC 216A in Simple Words Section 216A of the Indian Penal Code states that anyone who knowingly shelters or hides individuals involved in robbery or dacoity to aid their criminal activities or protect them from punishment can be sentenced to rigorous imprisonment for up to seven years and fined.",
+        "offense": "Harbouring robbers or dacoits",
+        "punishment": "Rigorous Imprisonment for 7 Years and Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 216B": {
         "description": "Description of IPC Section 216B According to section 216B of Indian penal code, Repealed by the Indian Penal Code (Amendment) Act, 1942 (8 of 1942), S. 3. IPC 216B in Simple Words Section 216B of the Indian Penal Code has been removed from the law by the Indian Penal Code (Amendment) Act, 1942 (8 of 1942), S. 3.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 217": {
         "description": "Description of IPC Section 217 According to section 217 of Indian penal code, Whoever, being a public servant, knowingly disobeys any direction of the law as to the way in which he is to conduct himself as such public servant, intending thereby to save, or knowing it to be likely that he will thereby save, any person from legal punishment, or subject him to a less punishment than that to which he is liable, or with intent to save, or knowing that he is likely thereby to save, any property from forfeiture or any charge to which it is liable by law, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. IPC 217 in Simple Words In simple words, Section 217 of the Indian Penal Code states that if a public servant knowingly disobeys the law to save someone from legal punishment or subject them to a lesser punishment, or to save property from forfeiture, they can be punished with imprisonment up to two years, or fined, or both.",
@@ -816,6 +992,14 @@
         "court": "Same As Offence"
     },
     "Section 228": {
+        "description": "Description of IPC Section 228 According to section 228 of Indian penal code, Whoever intentionally offers any insult, or causes any interruption to any public servant, while such public servant is sitting in any stage of a judicial proceeding, shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to one thousand rupees, or with both. IPC 228 in Simple Words In simple words, Section 228 of the Indian Penal Code states that if someone intentionally insults or disrupts a public servant while they are involved in any stage of a judicial proceeding, they can be punished with up to six months of simple imprisonment, or fined up to one thousand rupees, or both.",
+        "offense": "Intentional insult or interruption to a public servant sitting in any stage of a judicial proceeding",
+        "punishment": "Simple Imprisonment for 6 Months or Fine or Both",
+        "cognizable": "Non-Cognizable; Cognizable in A.P.",
+        "bailable": "Bailable",
+        "court": "Same As Offence, subject to Ch. XXVI, or if not committed in a Court, Any Magistrate"
+    },
+    "Section 228A": {
         "description": "Description of IPC Section 228A According to section 228A of Indian penal code, Whoever prints or publishes the name or any matter which may make known the identity of any person against whom an offence under section 376, section 376A, section 376B, section 376C, section 376D or section 376E1 is alleged or found to have been committed (hereafter in this section referred to as the victim) shall be punished with imprisonment of either description for a term which may extend to two years and shall also be liable to fine. Nothing in sub-section (1) extends to any printing or publication of the name or any matter which may make known the identity of the victim if such printing or publication is by or under the order in writing of the officer-in-charge of the police station or the police officer making the investigation into such offence acting in good faith for the purposes of such investigation;or by, or with the authorisation in writing of, the victim; or where the victim is dead or minor or of unsound mind, by, or with the authorisation in writing of, the next-of-kin of the victim: IPC 228A in Simple Words Section 228A of the Indian Penal Code states that anyone who prints or publishes the name or any information that may reveal the identity of a victim in cases of certain sexual offences can be punished with imprisonment of up to two years and fined, unless such printing or publication is authorized by the police, the victim, or the victim's next-of-kin in certain circumstances.",
         "offense": "Disclosure of identity of the victim of certain offences, etc.",
         "punishment": "2 Years + Fine",
@@ -824,6 +1008,14 @@
         "court": "Any Magistrate"
     },
     "Section 229": {
+        "description": "Description of IPC Section 229 According to section 229 of Indian penal code, Whoever, by personation or otherwise, shall intentionally cause, or knowingly suffer himself to be returned, empanelled or sworn as a juryman or assessor in any case in which he knows that he is not entitled by law to be so returned, empanelled or sworn, or knowing himself to have been so returned, empanelled or sworn contrary to law, shall voluntarily serve on such jury or as such assessor, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. IPC 229 in Simple Words In simple words, Section 229 of the Indian Penal Code states that if someone intentionally impersonates or allows themselves to be selected as a juror or assessor in a case where they are not legally entitled to be, and willingly serves in that role, they can be punished with imprisonment up to two years, or fined, or both.",
+        "offense": "Personation of a juror or assessor",
+        "punishment": "2 Years or Fine or Both",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 229A": {
         "description": "Description of IPC Section 229A According to section 229A of Indian penal code, Whoever, having been charged with an offence and released on bail or on bond without sureties, fails without sufficient cause (the burden of proving which shall lie upon him), to appear in Court in accordance with the terms of the bail or bond, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both. IPC 229A in Simple Words Section 229A of the Indian Penal Code states that if a person who has been charged with an offence and released on bail or bond fails to appear in court as per the terms of the bail or bond without sufficient cause, they may be punished with imprisonment of up to one year, or with a fine, or both.",
         "offense": "Failure by person released on bail or bond to appear in Court",
         "punishment": "1 Year or Fine or Both",
@@ -833,11 +1025,11 @@
     },
     "Section 230": {
         "description": "Description of IPC Section 230 According to section 230 of Indian penal code, Coin \u2014 Coin is metal used for the time being as money, and stamped and issued by the authority of some State or Sovereign Power in order to be so used. Indian coin \u2014 Indian coin is metal stamped and issued by the authority of the Government of India in order to be used as money; and metal which has been so stamped and issued shall continue to be Indian coin for the purposes of this Chapter, notwithstanding that it may have ceased to be used as money. IPC 230 in Simple Words In simple words, Section 230 of the Indian Penal Code defines \"\"coin\"\" as metal used as money and stamped by a government authority, and \"\"Indian coin\"\" as metal stamped and issued by the Government of India to be used as money, even if it's no longer in circulation.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 231": {
         "description": "Description of IPC Section 231 According to section 231 of Indian penal code, Whoever counterfeits or knowingly performs any part of the process of counterfeiting coin, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. IPC 231 in Simple Words In simple words, Section 231 of the Indian Penal Code states that if someone counterfeits or is involved in any step of counterfeiting coins, they can be imprisoned for up to seven years and fined.",
@@ -1096,6 +1288,14 @@
         "court": "Any Magistrate"
     },
     "Section 263": {
+        "description": "Description of IPC Section 263 According to section 263 of Indian penal code, Whoever, fraudulently or with intent to cause loss to Government, erases or removes from a stamp issued by Government for the purpose of revenue, any mark, put or impressed upon such stamp for the purpose of denoting that the same has been used, or knowingly has in his possession or sells or disposes of any such stamp from which such mark has been erased or removed, or sells or disposes of any such stamp which he knows to have been used, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 263 in Simple Words According to section 263 of the Indian Penal Code, anyone who fraudulently removes a mark from a revenue stamp or possesses, sells, or disposes of such altered stamps with the intent to cause loss to the government can be punished with imprisonment up to three years or with a fine or both.",
+        "offense": "Erasure of mark denoting that stamps have been used",
+        "punishment": "3 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 263A": {
         "description": "Description of IPC Section 263A According to section 263A of Indian penal code, Whoever: makes, knowingly utters, deals in or sells any fictitious stamp, or knowingly uses for any postal purpose any fictitious stamp, or has in his possession, without lawful excuse, any fictitious stamp, or makes or, without lawful excuse, has in his possession any die, plate, instrument or materials for making any fictitious stamp, shall be punished with fine which may extend to two hundred rupees. Any such stamp, die, plate, instrument or materials in the possession of any person for making any fictitious stamp may be seized and, if seized shall be forfeited. In this section \u201cfictitious stamp\u201d means any stamp falsely purporting to be issued by Government for the purpose of denoting a rate of postage, or any facsimile or imitation or representation, whether on paper or otherwise, of any stamp issued by Government for that purpose. In this section and also in sections 255 to 263, both inclusive, the word \u201cGovernment\u201d, when used in connection with, or in reference to, any stamp issued for the purpose of denoting a rate of postage, shall, notwithstanding anything in section 17, be deemed to include the person or persons authorized by law to administer executive Government in any part of India, and also in any part of Her Majesty\u2019s dominions or in any foreign country. IPC 263A in Simple Words Section 263A of the Indian Penal Code deals with the punishment for dealing with fictitious stamps, including making, selling, possessing, or using them, with a fine that may extend up to two hundred rupees, and allows for the seizure and forfeiture of such stamps, dies, plates, instruments, or materials used for making fictitious stamps.",
         "offense": "Fictitious stamps",
         "punishment": "Fine",
@@ -1137,11 +1337,11 @@
     },
     "Section 268": {
         "description": "Description of IPC Section 268 According to section 268 of Indian penal code, A person is guilty of a public nuisance who does any act or is guilty of an illegal omission which causes any common injury, danger or annoyance to the public or to the people in general who dwell or occupy property in the vicinity, or which must necessarily cause injury, obstruction, danger or annoyance to persons who may have occasion to use any public right. A common nuisance is not excused on the ground that it causes some convenience or advantage. IPC 268 in Simple Words According to section 268 of the Indian Penal Code, a person is guilty of a public nuisance if they do anything that causes harm, danger, or annoyance to the public or people living nearby, and such a nuisance cannot be excused even if it brings some convenience or advantage.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 269": {
         "description": "Description of IPC Section 269 According to section 269 of Indian penal code, Whoever unlawfully or negligently does any act which is, and which he knows or has reason to believe to be, likely to spread the infection of any disease dangerous to life, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both. IPC 269 in Simple Words According to section 269 of the Indian Penal Code, if anyone unlawfully or negligently does an act that can spread a dangerous disease, they can be punished with imprisonment for up to six months, or with a fine, or both.",
@@ -1344,6 +1544,14 @@
         "court": "Any Magistrate"
     },
     "Section 294": {
+        "description": "Description of IPC Section 294 According to section 294 of Indian penal code, Whoever, to the annoyance of others: does any obscene act in any public place, or sings, recites or utters any obscene song, ballad or words, in or near any public place, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine, or with both. IPC 294 in Simple Words Section 294 of the Indian Penal Code states that anyone who does any obscene act or sings/recites obscene content in a public place, causing annoyance to others, can be punished with imprisonment up to three months, or a fine, or both. Cited by Arnab Manoranjan Goswami vs The State Of Maharashtra Suresh Kumar Koushal and Anr vs Naz Foundation and Ors Manoj vs The State Of Madhya Pradesh Sharat Babu Digumarti vs Govt Of Nct Of Delhi Narad Patel vs The State Of Chhattisgarh",
+        "offense": "Obscene Songs",
+        "punishment": "3 Months or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 294A": {
         "description": "Description of IPC Section 294A According to section 294A of Indian penal code, Whoever keeps any office or place for the purpose of drawing any lottery not being a State lottery or a lottery authorised by the State Government, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both. And whoever publishes any proposal to pay any sum, or to deliver any goods, or to do or forbear doing anything for the benefit of any person, on any event or contingency relative or applicable to the drawing of any ticket, lot, number or figure in any such lottery shall be punished with fine which may extend to one thousand rupees. IPC 294A in Simple Words Section 294A of the Indian Penal Code deals with the punishment for keeping an illegal lottery office and publishing proposals related to unauthorized lotteries, with imprisonment up to six months or a fine, or both, for running the office, and a fine of up to one thousand rupees for publishing proposals.",
         "offense": "Keeping a lottery office",
         "punishment": "6 Months or Fine or Both",
@@ -1352,6 +1560,14 @@
         "court": "Any Magistrate"
     },
     "Section 295": {
+        "description": "Description of IPC Section 295 According to section 295 of Indian penal code, Whoever destroys, damages or defiles any place of worship, or any object held sacred by any class of persons with the intention of thereby insulting the religion of any class of persons or with the knowledge that any class of persons is likely to consider such destruction, damage or defilement as an insult to their religion, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. IPC 295 in Simple Words Section 295 of the Indian Penal Code states that intentionally destroying or defiling a place of worship or any sacred object with the intention of insulting a religious group, or knowing it will likely be considered an insult, can lead to imprisonment for up to two years, or a fine, or both.",
+        "offense": "Destroying, damaging or defiling a place of worship or sacred object with intent to insult the religion of any class of persons",
+        "punishment": "2 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 295A": {
         "description": "Description of IPC Section 295A According to section 295A of Indian penal code, Whoever, with deliberate and malicious intention of outraging the religious feelings of any class of citizens of India, by words, either spoken or written, or by signs or by visible representations or otherwise insults or attempts to insult the religion or the religious beliefs of that class, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 295A in Simple Words Section 295A of the Indian Penal Code deals with intentionally outraging religious feelings of any class by spoken, written, or visible means, and the punishment is imprisonment up to three years, or a fine, or both.",
         "offense": "Maliciously insulting the religions or the religious beliefs of any class",
         "punishment": "3 Years or Fine or Both",
@@ -1385,35 +1601,35 @@
     },
     "Section 299": {
         "description": "Description of IPC Section 299 According to section 299 of Indian penal code, Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide. IPC 299 in Simple Words Section 299 of the Indian Penal Code states that causing death by intending to cause death, or causing such bodily injury likely to cause death, or knowingly doing an act likely to cause death, constitutes the offence of culpable homicide.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
-    "Section 29": {
+    "Section 29A": {
         "description": "Description of IPC Section 29A According to section 29A of Indian penal code, The words ?electronic record? shall have the meaning assigned to them in clause (t) of sub-section (1) of section 2 of the Information Technology Act, 2000.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 300": {
         "description": "Description of IPC Section 300 According to section 300 of Indian penal code, Except in the cases hereinafter excepted, culpable homicide is murder, if the act by which the death is caused is done with the intention of causing death, or- 2ndly.-If it is done with the intention of causing such bodily injury as the offender knows to be likely to cause the death of the person to whom the harm is caused, or- 3rdly.-If it is done with the intention of causing bodily injury to any person and the bodily injury intended to be inflicted is sufficient in the ordinary course of nature to cause death, or- 4thly.-If the person committing the act knows that it is so imminently dangerous that it must, in all probability, cause death, or such bodily injury as is likely to cause death, and commits such act without any excuse for incurring the risk of causing death or such injury as aforesaid. IPC 300 in Simple Words According to section 300 of the Indian Penal Code, culpable homicide is considered murder if the act is done with the intention of causing death or causing bodily injury likely to cause death, or if the act is so dangerous that it is likely to cause death or serious bodily injury and is done without any excuse for taking such a risk. Illustrations (a) A shoots Z with the intention of killing him. Z dies in consequence. A commits murder. (b) A, knowing that Z is labouring under such a disease that a blow is likely to cause his death, strikes him with the intention of causing bodily injury. Z dies in consequence of the blow. A is guilty of murder, although the blow might not have been sufficient in the ordinary course of nature to cause the death of a person in a sound state of health. But if A, not knowing that Z is labouring under any disease, gives him such a blow as would not in the ordinary course of nature kill a person in a sound state of health, here A, although he may intend to cause bodily injury, is not guilty of murder, if he did not intend to cause death, or such bodily injury as in the ordinary course of nature would cause death. (c) A intentionally gives Z a sword-cut or club-wound sufficient to cause the death of a man in the ordinary course of nature. Z dies in consequence. Here A is guilty of murder, although he may not have intended to cause Z's death. (d) A without any excuse fires a loaded cannon into a crowd of persons and kills one of them. A is guilty of murder, although he may not have had a premeditated design to kill any particular individual. Exception 1.-When culpable homicide is not murder.-Culpable homicide is not murder if the offender, whilst deprived of the power of self-control by grave and sudden provocation, causes the death of the person who gave the provocation or causes the death of any other person by mistake or accident. The above exception is subject to the following provisos:- First.-That the provocation is not sought or voluntarily provoked by the offender as an excuse for killing or doing harm to any person. Secondly.-That the provocation is not given by anything done in obedience to the law, or by a public servant in the lawful exercise of the powers of such public servant. Thirdly.-That the provocation is not given by anything done in the lawful exercise of the right of private defence. Explanation.-Whether the provocation was grave and sudden enough to prevent the offence from amounting to murder is a question of fact. Illustrations (a) A, under the influence of passion excited by a provocation given by Z, intentionally kills Y, Z's child. This is murder, in as much as the provocation was not given by the child, and the death of the child was not caused by accident or misfortune in doing an act caused by the provocation. (b) Y gives grave and sudden provocation to A. A, on this provocation, fires a pistol at Y, neither intending nor knowing himself to be likely to kill Z, who is near him, but out of sight. A kills Z. Here A has not committed murder, but merely culpable homicide. (c) A is lawfully arrested by Z, a bailiff. A is excited to sudden and violent passion by the arrest, and kills Z. This is murder, inasmuch as the provocation was given by a thing done by a public servant in the exercise of his powers. (d) A appears as a witness before Z, a Magistrate. Z says that he does not believe a word of A's deposition, and that A has perjured himself. A is moved to sudden passion by these words, and kills Z. This is murder. (e)A attempts to pull Z's nose. Z, in the exercise of the right of private defence, lays hold of A to prevent him from doing so. A is moved to sudden and violent passion in consequence, and kills Z. This is murder, inasmuch as the provocation was giving by a thing done in the exercise of the right of private defence. (f) Z strikes B. B is by this provocation excited to violent rage. A, a bystander, intending to take advantage of B's rage, and to cause him to kill Z, puts a knife into B's hand for that purpose. B kills Z with the knife. Here B may have committed only culpable homicide, but A is guilty of murder. Exception 2.-Culpable homicide is not murder if the offender in the exercise in good faith of the right of private defence of person or property, exceeds the power given to him by law and causes the death of the person against whom he is exercising such right of defence without premeditation, and without any intention of doing more harm than is necessary for the purpose of such defence. Illustration Z attempts to horsewhip A, not in such a manner as to cause grievous hurt to A. A draws out a pistol. Z persists in the assault. A believing in good faith that he can by no other means prevent himself from being horsewhipped, shoots Z dead. A has not committed murder, but only culpable homicide. Exception 3.-Culpable homicide is not murder if the offender, being a public servant or aiding a public servant acting for the advancement of public justice, exceeds the powers given to him by law, and causes death by doing an act which he, in good faith, believes to be lawful and necessary for the due discharge of his duty as such public servant and without ill-will towards the person whose death is caused. Exception 4.-Culpable homicide is not murder if it is committed without premeditation in a sudden fight",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 301": {
         "description": "Description of IPC Section 301 According to section 301 of Indian penal code, If a person, by doing anything which he intends or knows to be likely to cause death, commits culpable homicide by causing the death of any person, whose death he neither intends nor knows himself to be likely to cause, the culpable homicide committed by the offender is of the description of which it would have been if he had caused the death of the person whose death he intended or knew himself to he likely to cause. IPC 301 in Simple Words Section 301 of the Indian Penal Code states that if a person intends or knows that their action is likely to cause death, and as a result, another person dies (whom they did not intend to harm), the offense is treated as if they caused the death of the person they intended or knew they might harm.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 302": {
         "description": "Description of IPC Section 302 According to section 302 of Indian penal code, Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine. IPC 302 in Simple Words Section 302 of the Indian Penal Code states that anyone who commits murder can be punished with the death penalty or life imprisonment, and may also be fined. Cited by Ramdeo Rai Yadav vs State Of Bihar Mohammad Irfan vs State Of Karnataka Prasad Pradhan vs The State Of Chhattisgarh Nandu Singh vs The State Of Madhya Pradesh Kala Singh Gurnam Singh vs The State Of Punjab",
@@ -1432,6 +1648,22 @@
         "court": "Court of Session"
     },
     "Section 304": {
+        "description": "Description of IPC Section 304 According to section 304 of Indian penal code, Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine, if the act by which the death is caused is done with the intention of causing death, or of causing such bodily injury as is likely to cause death; or with imprisonment of either description for a term which may extend to ten years, or with fine, or with both, if the act is done with the knowledge that it is likely to cause death, but without any intention to cause death, or to cause such bodily injury as is likely to cause death. IPC 304 in Simple Words Section 304 of the Indian Penal Code states that if someone commits culpable homicide (causing death without intending to commit murder), they can be punished with life imprisonment or imprisonment for up to ten years, and may also be fined, depending on whether the act was done with the intention to cause death or with the knowledge that it is likely to cause death. Cited by Paul vs The State Of Kerala Sharad Birdhi Chand Sarda vs State Of Maharashtra Sarla Mudgal, President vs Union Of India The State Of Punjab vs Gurmit Singh",
+        "offense": "Culpable homicide not amounting to murder, If act by which the death is caused is done with intention of causing death, etc.",
+        "punishment": "Imprisonment for Life or 10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 304A": {
+        "description": "Description of IPC Section 304A According to section 304A of Indian penal code, Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. IPC 304A in Simple Words Section 304A of the Indian Penal Code deals with causing death by a rash or negligent act not amounting to culpable homicide, and the punishment is imprisonment up to two years or a fine, or both.",
+        "offense": "Causing death by rash or negligent act",
+        "punishment": "2 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 304B": {
         "description": "Description of IPC Section 304B According to section 304B of Indian penal code, Where the death of a woman is caused by any burns or bodily injury or occurs otherwise than under normal circumstances within seven years of her marriage and it is shown that soon before her death she was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called \u201cdowry death\u201d, and such husband or relative shall be deemed to have caused her death. Whoever commits dowry death shall be punished with imprisonment for a term which shall not be less than seven years but which may extend to imprisonment for life. IPC 304B in Simple Words Section 304B of the Indian Penal Code deals with \"dowry death,\" where a woman's death caused by burns or bodily injury within seven years of her marriage, and it is linked to cruelty or harassment related to dowry demands, leading to imprisonment for a minimum of seven years up to life for the husband or relative responsible.",
         "offense": "Dowry death",
         "punishment": "Imprisonment for not less than 7 Years, but upto Life",
@@ -1481,11 +1713,11 @@
     },
     "Section 310": {
         "description": "Description of IPC Section 310 According to section 310 of Indian penal code, Whoever, at any time after the passing of this Act, shall have been habitually associated with any other or others for the purpose of committing robbery or child-stealing by means of or accompanied with murder, is a thug. IPC 310 in Simple Words Section 310 of the Indian Penal Code states that anyone who, after the passing of this Act, is regularly associated with others to commit robbery or child-stealing along with murder is considered a thug.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 311": {
         "description": "Description of IPC Section 311 According to section 311 of Indian penal code, Whoever is a thug, shall be punished with imprisonment for life, and shall also be liable to fine. IPC 311 in Simple Words Section 311 of the Indian Penal Code states that anyone who is a thug can be punished with life imprisonment and may also be fined. Cited by Somasundaram at Somu vs State Rep By Dy Comm Of Police Mohd Hussain at Julfikar Ali vs The State Govt Of Nct Delhi Pooja Pal vs Union Of India And Ors Rama Paswan and Ors vs State Of Jharkhand Iddar and Ors vs Aabida and Anr",
@@ -1553,35 +1785,35 @@
     },
     "Section 319": {
         "description": "Description of IPC Section 319 According to section 319 of Indian penal code, Whoever causes bodily pain, disease or infirmity to any person is said to cause hurt. IPC 319 in Simple Words Section 319 of the Indian Penal Code states that anyone who causes bodily pain, disease, or infirmity to another person is considered to have caused hurt.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 320": {
         "description": "Description of IPC Section 320 According to section 320 of Indian penal code, The following kinds of hurt only are designated as \"grievous\": Emasculation. Permanent privation of the sight of either eye. Permanent privation of the hearing of either ear. Privation of any member or joint. Destruction or permanent impairing of the powers of any member or joint. Permanent disfiguration of the head or face. Fracture or dislocation of a bone or tooth. Any hurt which endangers life or which causes the sufferer to be during the space of twenty days in severe bodily pain, or unable to follow his ordinary pursuits. IPC 320 in Simple Words Section 320 of the Indian Penal Code defines 'grievous hurt' as specific severe injuries including emasculation, loss of sight or hearing, loss of a body part or joint, disfigurement, fractures, and injuries endangering life or causing severe pain for at least twenty days. Cited by Maqbool vs The State Of Uttar Pradesh Alister Anthony Pareira vs State Of Maharashtra Maqsood and Ors vs State Of Uttar Pradesh Mathai vs State Of Kerala Jitendra Raghuvanshi and Ors vs Babita Raghuvanshi and Anr",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 321": {
         "description": "Description of IPC Section 321 According to section 321 of Indian penal code, Whoever does any act with the intention of thereby causing hurt to any person, or with the knowledge that he is likely thereby to cause hurt to any person, and does thereby cause hurt to any person, is said \u201cvoluntarily to cause hurt\u201d. IPC 321 in Simple Words Section 321 of the Indian Penal Code states that if someone intentionally does an act with the intention of causing hurt or knowing that it is likely to cause hurt to another person, and it indeed causes hurt, they are considered to have 'voluntarily caused hurt'.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 322": {
         "description": "Description of IPC Section 322 According to section 322 of Indian penal code, Whoever voluntarily causes hurt, if the hurt which he intends to cause or knows himself to be likely to cause is grievous hurt, and if the hurt which he causes is grievous hurt, is said \u201cvoluntarily to cause grievous hurt\u201d. IPC 322 in Simple Words Section 322 of the Indian Penal Code states that if someone intentionally causes severe injuries, and those injuries turn out to be severe, they are considered to have 'voluntarily caused grievous hurt'.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 323": {
         "description": "Description of IPC Section 323 According to section 323 of Indian penal code, Whoever, except in the case provided for by section 334, voluntarily causes hurt, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both. IPC 323 in Simple Words Section 323 of the Indian Penal Code states that if someone voluntarily causes hurt to another person, they can be punished with imprisonment for up to one year, or a fine of up to one thousand rupees, or both. Cited by Mangu Khan and Ors vs State Of Rajasthan Japani Sahoo vs Chandra Sekhar Mohanty Jaswant Singh vs State Of Haryana Govind Prasad Kejriwal vs The State Of Bihar Surendra Singh vs The State Of Rajasthan",
@@ -1608,6 +1840,22 @@
         "court": "Any Magistrate"
     },
     "Section 326": {
+        "description": "Description of IPC Section 326 According to section 326 of Indian penal code, Whoever, except in the case provided for by section 335, voluntarily causes grievous hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, or by means of fire or any heated substance, or by means of any poison or any corrosive substance, or by means of any explosive substance, or by means of any substance which it is deleterious to the human body to inhale, to swallow, or to receive into the blood, or by means of any animal, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. IPC 326 in Simple Words Section 326 of the Indian Penal Code states that if someone voluntarily causes severe injuries using various dangerous means or instruments, they can be punished with life imprisonment or imprisonment for up to ten years, and may also be fined. Cited by Sanjay Dutt vs State Of Maharashtra State Of Maharashtra vs Kashirao Devi Singh vs The State Of Madhya Pradesh Sahebrao Arjun Hon vs Raosaheb The State Of Himachal Pradesh vs Vijay Kumar Alias Pappu",
+        "offense": "Voluntarily causing grievous hurt by dangerous weapons or means",
+        "punishment": "Imprisonment for Life or 10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Magistrate First Class; Session in M.P."
+    },
+    "Section 326A": {
+        "description": "Description of IPC Section 326A According to section 326A of Indian penal code, Whoever causes permanent or partial damage or deformity to, or bums or maims or disfigures or disables, any part or parts of the body of a person or causes grievous hurt by throwing acid on or by administering acid to that person, or by using any other means with the intention of causing or with the knowledge that he is likely to cause such injury or hurt, shall be punished with imprisonment of either description for a term which shall not be less than ten years but which may extend to imprisonment for life, and with fine; Provided that such fine shall be just and reasonable to meet the medical expenses of the treatment of the victim; Provided further that any fine imposed under this section shall be paid to the victim. IPC 326A in Simple Words Section 326A of the Indian Penal Code punishes those who cause severe harm, such as permanent damage, deformity, or grievous hurt to someone by throwing acid or using any other means, with imprisonment of 10 years to life and a fine. The fine is intended to cover the victim's medical expenses.",
+        "offense": "Voluntarily causing grievous hurt by use of acid, etc.",
+        "punishment": "10 years to Life + Fine paid to the victim",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Court of Session"
+    },
+    "Section 326B": {
         "description": "Description of IPC Section 326B According to section 326B of Indian penal code, Whoever throws or attempts to throw acid on any person or attempts to administer acid to any person, or attempts to use any other means, with the intention of causing permanent or partial damage or deformity or bums or maiming or disfigurement or disability or grievous hurt to that person, shall be punished with imprisonment of either description for a term which shall not be less than five years but which may extend to seven years, and shall also be liable to fine. Explanations For the purposes of section 326A and this section, \u201cacid\u201d includes any substance which has acidic or corrosive character or burning nature, that is capable of causing bodily injury leading to scars or disfigurement or temporary or permanent disability. For the purposes of section 326A and this section, permanent or partial damage or deformity shall not be required to be irreversible. IPC 326B in Simple Words Section 326B of the Indian Penal Code punishes those who throw or attempt to throw acid on someone with the intent to cause severe harm, such as permanent damage, disfigurement, or grievous hurt, with imprisonment of 5 to 7 years and a fine. The definition of \"acid\" includes any substance that can cause bodily injury leading to scars or disability.",
         "offense": "Voluntarily throwing or attempting to throw acid",
         "punishment": "5 to 7 years + Fine",
@@ -1713,19 +1961,19 @@
     },
     "Section 339": {
         "description": "Description of IPC Section 339 According to section 339 of Indian penal code, Whoever voluntarily obstructs any person so as to prevent that person from proceeding in any direction in which that person has a right to proceed, is said wrongfully to restrain that person. IPC 339 in Simple Words Section 339 of the Indian Penal Code states that if someone willingly blocks another person's path, preventing them from moving in a direction they have the right to go, it is considered 'wrongful restraint'.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 340": {
         "description": "Description of IPC Section 340 According to section 340 of Indian penal code, Whoever wrongfully restrains any person in such a manner as to prevent that person from proceeding beyond certain circumscribing limits, is said \u201cwrongfully to confine\u201d that person. IPC 340 in Simple Words Section 340 of the Indian Penal Code defines that if someone wrongfully restrains a person in a way that prevents them from moving beyond certain limits, it is considered 'wrongful confinement'.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 341": {
         "description": "Description of IPC Section 341 According to section 341 of Indian penal code, Whoever wrongfully restrains any person shall be punished with simple imprisonment for a term which may extend to one month, or with fine which may extend to five hundred rupees, or with both. IPC 341 in Simple Words Section 341 of the Indian Penal Code states that anyone who wrongfully restrains a person can be punished with simple imprisonment for up to one month, or a fine of up to five hundred rupees, or both. Cited by Balvir Singh vs The State Of Madhya Pradesh The State Of Rajasthan vs Chetan Jeff The State Of Jharkhand vs Shailendra Kumar Rai Kumar Ghimirey vs The State Of Sikkim",
@@ -1793,27 +2041,27 @@
     },
     "Section 349": {
         "description": "Description of IPC Section 349 According to section 349 of Indian penal code, A person is said to use force to another if he causes motion, change of motion, or cessation of motion to that other, or if he causes to any substance such motion, or change of motion, or cessation of motion as brings that substance into contact with any part of that other\u2019s body, or with anything which that other is wearing or carrying, or with anything so situated that such contact affects that other\u2019s sense of feeling; Provided that the person causing the motion, or change of motion, or cessation of motion, causes that motion, change of motion, or cessation of motion in one of the three ways hereinafter described: By his own bodily power. By disposing any substance in such a manner that the motion or change or cessation of motion takes place without any further act on his part, or on the part of any other person. By inducing any animal to move, to change its motion, or to cease to move. IPC 349 in Simple Words Section 349 of the Indian Penal Code defines using force as causing motion, change of motion, or cessation of motion to another person or substance in a way that affects their body or senses, through bodily power, placing a substance to cause motion without further action, or influencing an animal's movement.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 350": {
         "description": "Description of IPC Section 350 According to section 350 of Indian penal code, Whoever intentionally uses force to any person, without that person\u00e2\u20ac\u2122s consent, in order to the committing of any offence, or intending by the use of such force to cause, or knowing it to be likely that by the use of such force he will cause injury, fear or annoyance to the person to whom the force is used, is said to use criminal force to that other. IPC 350 in Simple Words Section 350 of the Indian Penal Code states that if someone intentionally uses force on another person without their consent to commit an offense or to cause injury, fear, or annoyance to that person, it is considered using criminal force.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 351": {
         "description": "Description of IPC Section 351 According to section 351 of Indian penal code, Whoever makes any gesture, or any preparation intending or knowing it to be likely that such gesture or preparation will cause any person present to apprehend that he who makes that gesture or preparation is about to use criminal force to that person, is said to commit an assault. IPC 351 in Simple Words Section 351 of the Indian Penal Code states that if someone makes a gesture or prepares to use criminal force in a way that causes another person to fear an imminent attack, they are considered to have committed an assault.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 352": {
         "description": "Description of IPC Section 352 According to section 352 of Indian penal code, Whoever assaults or uses criminal force to any person otherwise than on grave and sudden provocation given by that person, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. IPC 352 in Simple Words Section 352 of the Indian Penal Code states that if someone assaults or uses criminal force against another person without any serious and sudden provocation, they can be punished with imprisonment for up to three months, or a fine of up to five hundred rupees, or both.",
@@ -1832,6 +2080,38 @@
         "court": "Any Magistrate"
     },
     "Section 354": {
+        "description": "Description of IPC Section 354 According to section 354 of Indian penal code, Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will there by outrage her modesty, shall be punished with imprisonment of either description for a term which shall not be less than one year but which may extend to five years, and shall also be liable to fine. IPC 354 in Simple Words Section 354 of the Indian Penal Code states that anyone who assaults or uses criminal force against a woman with the intention of outraging her modesty, or knowing that such an act is likely to outrage her modesty, can be punished with imprisonment ranging from one to five years and may also be fined. Cited by Madan Gopal Kakkad vs Naval Dubey And Anr State Of Maharashtra vs Rajendra Jawnmal Gandhi Tarkeshwar Sahu vs State Of Bihar Sakshi vs Union Of India Surat Singh vs State Of Uttaranchal & Anr",
+        "offense": "Assault or use of criminal force to woman with intent to outrage her modesty",
+        "punishment": "1 to 5 years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 354A": {
+        "description": "Description of IPC Section 354A According to section 354A of Indian penal code, A man committing any of the following acts\u00e2\u20ac\u201d physical contact and advances involving unwelcome and explicit sexual overtures; or a demand or request for sexual favours; or showing pornography against the will of a woman; or making sexually coloured remarks, shall be guilty of the offence of sexual harassment. Any man who commits the offence specified in clause (i) or clause (ii) or clause (iii) of sub-section (1) shall be punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both. Any man who commits the offence specified in clause (iv) of sub-section (1) shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both. IPC 354A in Simple Words According to section 354A of the Indian Penal Code, any man who engages in unwelcome and explicit sexual behavior, demands sexual favors, shows pornography against a woman's will, or makes sexually colored remarks can be punished with imprisonment or fine. Cited by Attorney General For India vs Satish In Re vs Indian Woman Says Gang Raped On Shamsher Singh Verma vs State Of Haryana Lalita Kumari vs Govt Of Uttar Pradesh and Ors Tarun Jit Tejpal vs The State Of Goa",
+        "offense": "Sexual harassment of the nature of unwelcome physical contact and advances or a demand or request for sexual favours or showing pornography",
+        "punishment": "Upto 3 years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 354B": {
+        "description": "Description of IPC Section 354B According to section 354B of Indian penal code, Any man who assaults or uses criminal force to any woman or abets such act with the intention of disrobing or compelling her to be naked, shall be punished with imprisonment of either description for a term which shall not be less than three years but which may extend to seven years, and shall also be liable to fine. IPC 354B in Simple Words According to section 354B of the Indian Penal Code, any man who assaults, uses criminal force, or abets such act on a woman with the intention of disrobing or compelling her to be naked, can be imprisoned for three to seven years and fined.",
+        "offense": "Criminal force to woman with intent to disrobe",
+        "punishment": "3 to 7 years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 354C": {
+        "description": "Description of IPC Section 354C According to section 354C of Indian penal code, Any man who watches, or captures the image of a woman engaging in a private act in circumstances where she would usually have the expectation of not being observed either by the perpetrator or by any other person at the behest of the perpetrator or disseminates such image shall be punished on first conviction with imprisonment of either description for a term which shall not be less than one year, but which may extend to three years, and shall also be liable to fine, and be punished on a second or subsequent conviction, with imprisonment of either description for a term which shall not be less than three years, but which may extend to seven years, and shall also be liable to fine. Explanations For the purpose of this section, \u201cprivate act\u201d includes an act of watching carried out in a place which, in the circumstances, would reasonably be expected to provide privacy and where the victim\u2019s genitals, posterior or breasts are exposed or covered only in underwear; or the victim is using a lavatory; or the victim is doing a sexual act that is not of a kind ordinarily done in public. Where the victim consents to the capture of the images or any act, but not to their dissemination to third persons and where such image or act is disseminated, such dissemination shall be considered an offence under this section. IPC 354C in Simple Words According to section 354C of the Indian Penal Code, any man who watches, captures images of a woman's private act, or disseminates such images without her consent, can be imprisoned for one to three years on first conviction and three to seven years on subsequent convictions, along with a fine. \"Private act\" includes acts in a place with reasonable privacy and involving exposure of genitals, posterior, or breasts, or acts not done ordinarily in public.",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 354D": {
         "description": "Description of IPC Section 354D According to section 354D of Indian penal code, (1) Any man who\u2014 follows a woman and contacts, or attempts to contact such woman to foster personal interaction repeatedly despite a clear indication of disinterest by such woman; or monitors the use by a woman of the internet, email or any other form of electronic communication, commits the offence of stalking; Provided that such conduct shall not amount to stalking if the man who pursued it proves that\u2014 it was pursued for the purpose of preventing or detecting crime and the man accused of stalking had been entrusted with the responsibility of prevention and detection of crime by the State; or it was pursued under any law or to comply with any condition or requirement imposed by any person under any law; or in the particular circumstances such conduct was reasonable and justified. (2) Whoever commits the offence of stalking shall be punished on first conviction with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; and be punished on a second or subsequent conviction, with imprisonment of either description for a term which may extend to five years, and shall also be liable to fine. IPC 354D in Simple Words According to section 354D of the Indian Penal Code, any man who repeatedly follows, contacts, or monitors a woman's electronic communications despite her clear disinterest commits the offence of stalking and can be imprisoned for up to three years on first conviction and up to five years on subsequent convictions, along with a fine. However, certain justifiable circumstances may not be considered stalking.",
         "offense": "Stalking",
         "punishment": "Upto 3 years + Fine for first conviction",
@@ -1873,37 +2153,45 @@
     },
     "Section 359": {
         "description": "Description of IPC Section 359 According to section 359 of Indian penal code, Kidnapping is of two kinds: kidnapping from India, and kidnapping from lawful guardianship. IPC 359 in Simple Words Section 359 of the Indian Penal Code defines two types of kidnapping: kidnapping from India and kidnapping from lawful guardianship.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 360": {
         "description": "Description of IPC Section 360 According to section 360 of Indian penal code, Whoever conveys any person beyond the limits of India without the consent of that person, or of some person legally authorized to consent on behalf of that person, is said to kidnap that person from India. IPC 360 in Simple Words Section 360 of the Indian Penal Code says that taking a person outside India without their consent or the consent of someone authorized to consent on their behalf is considered kidnapping from India.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 361": {
         "description": "Description of IPC Section 361 According to section 361 of Indian penal code, Whoever takes or entices any minor under sixteen years of age if a male, or under eighteen years of age if a female, or any person of unsound mind, out of the keeping of the lawful guardian of such minor or person of unsound mind, without the consent of such guardian, is said to kidnap such minor or person from lawful guardianship. IPC 361 in Simple Words Section 361 of the Indian Penal Code states that taking a minor or a person of unsound mind away from their lawful guardian without their consent is considered kidnapping.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 362": {
         "description": "Description of IPC Section 362 According to section 362 of Indian penal code, Whoever by force compels, or by any deceitful means induces any person to go from any place, is said to abduct that person. IPC 362 in Simple Words In the Indian Penal Code, if someone uses force or deceitful means to make a person leave a place, it is considered abduction.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 363": {
+        "description": "Description of IPC Section 363 According to section 363 of Indian penal code, Whoever kidnaps any person from India or from lawful guardianship, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. IPC 363 in Simple Words In the Indian Penal Code, anyone who kidnaps a person from India or from lawful guardianship can be punished with imprisonment for up to seven years and fined. Cited by Attorney General For India vs Satish Sartaj Khan vs The State Of Uttarakhand Sunil vs State Of Haryana Mohan Anna Chavan vs State Of Maharashtra Abhishek vs The State Of Maharashtra",
+        "offense": "Kidnapping",
+        "punishment": "7 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 363A": {
         "description": "Description of IPC Section 363A According to section 363A of Indian penal code, Whoever kidnaps any minor or, not being the lawful guardian of a minor, obtains the custody of the minor, in order that such minor may be employed or used for the purposes of begging shall be punishable with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. Whoever maims any minor in order that such minor may be employed or used for the purposes of begging shall be punishable with imprisonment for life, and shall also be liable to fine. Where any person, not being the lawful guardian of a minor, employs or uses such minor for the purposes of begging, it shall be presumed, unless the contrary is proved, that he kidnapped or otherwise obtained the custody of that minor in order that the minor might be employed or used for the purposes of begging. In this section \u201cbegging\u201d means: soliciting or receiving alms in a public place, whether under the pretence of singing, dancing, fortunetelling, performing tricks or selling articles or otherwise; entering on any private premises for the purpose of soliciting or receiving alms; exposing or exhibiting, with the object of obtaining or extorting alms, any sore, wound, injury, deformity or disease, whether of himself or of any other person or of an animal; using a minor as an exhibit for the purpose of soliciting or receiving alms; \u201cminor\u201d means: in the case of a male, a person under sixteen years of age; and in the case of a female, a person under eighteen years of age. IPC 363A in Simple Words According to section 363A of the Indian Penal Code, anyone who kidnaps a minor or obtains custody of a minor (not being the lawful guardian) to use the minor for begging purposes can be imprisoned for up to ten years and fined. If someone maims a minor for the same purpose, they can face life imprisonment and a fine. If a person uses a minor for begging, it is presumed that they obtained custody of the minor for begging purposes, unless proven otherwise.",
         "offense": "Kidnapping or obtaining the custody of a minor in order that such minor may be employed or used for purposes of begging",
         "punishment": "10 Years + Fine.",
@@ -1912,6 +2200,14 @@
         "court": "Magistrate First Class"
     },
     "Section 364": {
+        "description": "Description of IPC Section 364 According to section 364 of Indian penal code, Whoever kidnaps or abducts any person in order that such person may be murdered or may be so disposed of as to be put in danger of being murdered, shall be punished with imprisonment for life or rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine. IPC 364 in Simple Words In the Indian Penal Code, anyone who kidnaps or abducts a person with the intention of either murdering them or putting them in danger of being murdered can be punished with life imprisonment or rigorous imprisonment for up to ten years, along with a fine. Cited by Rafiq Ahmed at Rafi vs State Of Uttar Pradesh Kishore Bhadke vs State Of Maharashtra Irappa Siddappa Murgannavar vs The State Of Karnataka Baldev Singh vs State Of Punjab Ishwari Lal Yadav vs State Of Chhattisgarh",
+        "offense": "Kidnapping or abducting in order to murder",
+        "punishment": "Imprisonment for Life or Rigorous Imprisonment for 10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 364A": {
         "description": "Description of IPC Section 364A According to section 364A of Indian penal code, Whoever kidnaps or abducts any person or keeps a person in detention after such kidnapping or abduction, and threatens to cause death or hurt to such person, or by his conduct gives rise to a reasonable apprehension that such person may be put to death or hurt, or causes hurt or death to such person in order to compel the Government or any foreign State or international inter-governmental organisation or any other person to do or abstain from doing any act or to pay a ransom, shall be punishable with death or imprisonment for life, and shall also be liable to fine. IPC 364A in Simple Words According to section 364A of the Indian Penal Code, whoever kidnaps or abducts a person, threatens to cause harm, or causes harm to the person to compel the Government, foreign State, or others to do something or pay a ransom, can be punished with death or life imprisonment and fined.",
         "offense": "Kidnapping for ransom, etc.",
         "punishment": "Death or Life + Fine",
@@ -1928,6 +2224,22 @@
         "court": "Magistrate First Class"
     },
     "Section 366": {
+        "description": "Description of IPC Section 366 According to section 366 of Indian penal code, Whoever kidnaps or abducts any woman with intent that she may be compelled, or knowing it to be likely that she will be compelled, to marry any person against her will, or in order that she may be forced or seduced to illicit intercourse, or knowing it to be likely that she will be forced or seduced to illicit intercourse, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine; and whoever, by means of criminal intimidation as defined in this Code or of abuse of authority or any other method of compulsion, induces any woman to go from any place with intent that she may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall also be punishable as aforesaid. IPC 366 in Simple Words In the Indian Penal Code, anyone who kidnaps or abducts a woman with the intention of forcing her into marriage against her will or into illicit intercourse, or anyone who induces a woman through criminal intimidation or abuse of authority to go to a place where she may be forced or seduced into illicit intercourse, can be punished with imprisonment for up to ten years and fined. Cited by Fateh Chand vs State Of Haryana Mohd Firoz vs The State Of Madhya Pradesh Gabbu vs State Of Madhya Pradesh Tarkeshwar Sahu vs State Of Bihar Now Jharkhand Kavita Chandrakant Lakhani vs The State Of Maharashtra",
+        "offense": "Kidnapping or abducting a woman to compel her marriage or to cause her defilement etc.",
+        "punishment": "10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 366A": {
+        "description": "Description of IPC Section 366A According to section 366A of Indian penal code, Whoever, by any means whatsoever, induces any minor girl under the age of eighteen years to go from any place or to do any act with intent that such girl may be, or knowing that it is likely that she will be, forced or seduced to illicit intercourse with another person shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine. IPC 366A in Simple Words According to section 366A of the Indian Penal Code, anyone who induces a minor girl under 18 years to go somewhere or do something with the intent or knowledge that she may be forced into illicit intercourse with another person can be punished with up to ten years of imprisonment and a fine.",
+        "offense": "Procuration of minor girl",
+        "punishment": "10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 366B": {
         "description": "Description of IPC Section 366B According to section 366B of Indian penal code, Whoever imports into India from any country outside India or from the State of Jammu and Kashmir any girl under the age of twenty-one years with intent that she may be, or knowing it to be likely that she will be, forced or seduced to illicit intercourse with another person, shall be punishable with imprisonment which may extend to ten years, and shall also be liable to fine. IPC 366B in Simple Words According to section 366B of the Indian Penal Code, anyone who brings a girl under 21 years of age into India or from the State of Jammu and Kashmir from any foreign country with the intent or knowledge that she may be forced into illicit intercourse with another person can be punished with up to ten years of imprisonment and a fine.",
         "offense": "Importation of girl from foreign country",
         "punishment": "10 Years + Fine",
@@ -1960,6 +2272,14 @@
         "court": "Magistrate First Class"
     },
     "Section 370": {
+        "description": "Description of IPC Section 370 According to section 370 of Indian penal code, Whoever, for the purpose of exploitation, (a) recruits, (b) transports, ( c) harbours, (d) transfers, or (e) receives, a person or persons, by\u2014 using threats, or using force, or any other form of coercion, or by abduction, or by practising fraud, or deception, or by abuse of power, or by inducement, including the giving or receiving of payments or benefits, in order to achieve the consent of any person having control over the person recruited, transported, harboured, transferred or received, commits the offence of trafficking. Whoever commits the offence of trafficking shall be punished with rigorous imprisonment for a term which shall not be less than seven years, but which may extend to ten years, and shall also be liable to fine. Where the offence involves the trafficking of more than one person, it shall be punishable with rigorous imprisonment for a term which shall not be less than ten years but which may extend to imprisonment for life, and shall also be liable to fine. Where the offence involves the trafficking of a minor, it shall be punishable with rigorous imprisonment for a term which shall not be less than ten years, but which may extend to imprisonment for life, and shall also be liable to fine. Where the offence involves the trafficking of more than one minor, it shall be punishable with rigorous imprisonment for a term which shall not be less than fourteen years, but which may extend to imprisonment for life, and shall also be liable to fine. If a person is convicted of the offence of trafficking of minor on more than one occasion, then such person shall be punished with imprisonment for life, which shall mean imprisonment for the remainder of that person\u2019s natural life, and shall also be liable to fine. When a public servant or a police officer is involved in the trafficking of any person then, such public servant or police officer shall be punished with imprisonment for life, which shall mean imprisonment for the remainder of that person\u2019s natural life, and shall also be liable to fine. IPC 370 in Simple Words In the Indian Penal Code, anyone who recruits, transports, harbors, transfers, or receives a person through threats, force, coercion, abduction, fraud, inducement, or abuse of power for exploitation commits the offense of trafficking and can be punished with imprisonment ranging from 7 years to life, along with a fine. Public servants or police officers involved in trafficking can face life imprisonment, and the punishment is more severe if minors are involved.",
+        "offense": "Trafficking of person",
+        "punishment": "7 to 10 years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Court of Session"
+    },
+    "Section 370A": {
         "description": "Description of IPC Section 370A According to section 370A of Indian penal code, Whoever, knowingly or having reason to believe that a minor has been trafficked, engages such minor for sexual exploitation in any manner, shall be punished with rigorous imprisonment for a term which shall not be less than five years, but which may extend to seven years, and shall also be liable to fine. Whoever, knowingly by or having reason to believe that a person has been trafficked, engages such person for sexual exploitation in any manner, shall be punished With rigorous imprisonment for a term which shall not be less than three years, but which may extend to five years, and shall also be liable to fine. IPC 370A in Simple Words According to section 370A of the Indian Penal Code, engaging in sexual exploitation of a trafficked minor is punishable with rigorous imprisonment for 5-7 years, and engaging in sexual exploitation of a trafficked person (adult) is punishable with rigorous imprisonment for 3-5 years.",
         "offense": "Exploitation of a trafficked child",
         "punishment": "5 to 7 years + Fine",
@@ -2001,13 +2321,77 @@
     },
     "Section 375": {
         "description": "Description of IPC Section 375 According to section 375 of Indian penal code, A man is said to commit \u201crape\u201d if he\u2014 penetrates his penis, to any extent, into the vagina, mouth, urethra or anus of a woman or makes her to do so with him or any other person; or inserts, to any extent, any object or a part of the body, not being the penis, into the vagina, the urethra or anus of a woman or makes her to do so with him or any other person; or manipulates any part of the body of a woman so as to cause penetration into the vagina, urethra, anus or any part of body of such woman or makes her to do so with him or any other person; or applies his mouth to the vagina, anus, urethra of a woman or makes her to do so with him or any other person, under the circumstances falling under any of the following seven descriptions: Against her will. Without her consent. With her consent, when her consent has been obtained by putting her or any person in whom she is interested, in fear of death or of hurt. With her consent, when the man knows that he is not her husband and that her consent is given because she believes that he is another man to whom she is or believes herself to be lawfully married. With her consent when, at the time of giving such consent, by reason of unsoundness of mind or intoxication or the administration by him personally or through another of any stupefying or unwholesome Substance, she is unable to understand the nature and consequences of that to which she gives consent. With or without her consent, when she is under eighteen years of age. When she is unable to communicate consent. Explanations For the purposes of this section, \u201cvagina\u201d shall also include labia majora. Consent means an unequivocal voluntary agreement when the woman by words, gestures or any form of verbal or non-verbal communication, communicates willingness to participate in the specific sexual act; Provided that a woman who does not physically resist to the act of penetration shall not by the reason only of that fact, be regarded as consenting to the sexual activity. Exceptions A medical procedure or intervention shall not constitute rape. Sexual intercourse or sexual acts by a man with his own wife, the wife not being under fifteen years of age, is not rape. IPC 375 in Simple Words According to section 375 of the Indian Penal Code, \"\"rape\"\" is committed when a man engages in non-consensual sexual activities with a woman, which includes penetration or insertion of objects, manipulation of body parts, or using mouth against her will, without consent, or in cases where the woman is unable to communicate consent or is under eighteen years of age. There are also certain exceptions like medical procedures and consensual sexual acts within marriage when the wife is not under fifteen years of age. Cited by Dinesh at Buddha vs State Of Rajasthan State Of Madhya Pradesh vs Munna Choubey and Anr Bhupinder Sharma vs State Of Himachal Pradesh Bantu vs State Of Uttar Pradesh Yedla Srinivasa Rao vs State Of Andhra Pradesh",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 376": {
+        "description": "Description of IPC Section 376 According to section 376 of Indian penal code, Whoever, commits an offence punishable under sub-section (1) or sub-section (2) of section 376 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person\u00e2\u20ac\u2122s natural life, or with death. IPC 376 in Simple Words In the Indian Penal Code, if someone commits a crime under section 376 and causes the death of the woman or leaves her in a permanent vegetative state, they can be punished with rigorous imprisonment for a minimum of twenty years, life imprisonment, or the death penalty. Cited by Chaman Lal vs The State Of Himachal Pradesh Sakshi vs Union Of India State Of Haryana vs Janak Singh Pramala Pradip Salunkhe vs The State Of Maharashtra State Of Rajasthan vs Biram Lal",
+        "offense": "Rape",
+        "punishment": "Rigorous Imprisonment for 10 years to Imprisonment for Life + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Court of Session"
+    },
+    "Section 376A": {
+        "description": "Description of IPC Section 376A According to section 376A of Indian penal code, Whoever, commits an offence punishable under sub-section (1) or sub-section (2) of section 376 and in the course of such commission inflicts an injury which causes the death of the woman or causes the woman to be in a persistent vegetative state, shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person\u00e2\u20ac\u2122s natural life, or with death. IPC 376A in Simple Words According to section 376A of the Indian Penal Code, if a person commits an offence punishable under section 376(1) or section 376(2) and causes the death of the woman or leaves her in a persistent vegetative state, they can be punished with imprisonment for a term of at least twenty years, up to life imprisonment, or even the death penalty.",
+        "offense": "Person committing an offence of rape and inflicting injury which causes death or causes the woman to be in a persistent vegetative state",
+        "punishment": "Rigorous Imprisonment for 20 years to Imprisonment for Natural-Life or Death",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Court of Session"
+    },
+    "Section 376AB": {
+        "description": "Description of IPC Section 376AB According to section 376AB of Indian penal code, \"Whoever, commits rape on a woman under twelve years of age shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to imprisonment for life, which shall mean imprisonment for the remainder of that person?s natural life, and with fine or with death:1 Provided that such fine shall be just and reasonable to meet the medical expenses and rehabilitation of the victim: Provided further that any fine imposed under this section shall be paid to the victim.\"",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 376B": {
+        "description": "Description of IPC Section 376B According to section 376B of Indian penal code, Whoever has sexual intercourse with his own wife, who is living separately, whether under a decree of separation or otherwise, without her consent, shall be punished with imprisonment of either description for a term which shall not be less than two years but which may extend to seven years, and shall also be liable to fine. Explanations In this section, \u201csexual intercourse\u201d shall mean any of the acts mentioned in clauses (a) to (d) of section 375. IPC 376B in Simple Words According to section 376B of the Indian Penal Code, if a man has sexual intercourse with his own wife who is living separately, without her consent, he can be punished with imprisonment for a term of two to seven years and may also be liable to pay a fine.",
+        "offense": "Sexual intercourse by husband upon his wife during separation",
+        "punishment": "2 to 7 years + Fine",
+        "cognizable": "Cognizable (on complaint of victim)",
+        "bailable": "Bailable",
+        "court": "Court of Session"
+    },
+    "Section 376C": {
+        "description": "Description of IPC Section 376C According to section 376C of Indian penal code, Whoever, being\u2014 in a position of authority or in a fiduciary relationship; or a public servant; or superintendent or manager of a jail, remand home or other place of custody established by or under any law for the time being in force, or a women\u2019s or children\u2019s institution; or on the management of a hospital or being on the staff of a hospital, abuses such position or fiduciary relationship to induce or seduce any woman either in his custody or under his charge or present in the premises to have sexual intercourse with him, such sexual intercourse not amounting to the offence of rape, shall be punished with rigorous imprisonment of either description for a term which shall not be less than 5 years, but which may extend to ten years, and shall also be liable to fine. Explanations In this section, \u201csexual intercourse\u201d shall mean any of the acts mentioned in clauses (a) to (d) of section 375. For the purposes of this section, Explanation 1 to section 375 shall also be applicable. \u201cSuperintendent\u201d, in relation to a jail, remand home or other place of custody or a women\u2019s or children\u2019s institution, includes a person holding any other office in such jail, remand home, place or institution by virtue of which such person can exercise any authority or control over its inmates. The expressions \u201chospital\u201d and \u201cwomen\u2019s or children\u2019s institution\u201d shall respectively have the same meaning as in Explanation to sub-section (2) of section 376. IPC 376C in Simple Words According to section 376C of the Indian Penal Code, anyone in a position of authority or trust, such as a public servant, hospital staff, or jail manager, who abuses their position to induce a woman in their custody or charge to have sexual intercourse with them, can be punished with imprisonment of five to ten years and may also be liable to pay a fine.",
+        "offense": "Sexual intercourse by a person in authority",
+        "punishment": "Rigorous Imprisonment for 5 to 10 years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Court of Session"
+    },
+    "Section 376D": {
+        "description": "Description of IPC Section 376D According to section 376D of Indian penal code, Where a woman is raped by one or more persons constituting a group or acting in furtherance of a common intention, each of those persons shall be deemed to have committed the offence of rape and shall be punished with rigorous imprisonment for a term which shall not be less than twenty years, but which may extend to life which shall mean imprisonment for the remainder of that person\u00e2\u20ac\u2122s natural life, and with fine; Provided that such fine shall be just and reasonable to meet the medical expenses and rehabilitation of the victim; Provided further that any fine imposed under this section shall be paid to the victim. IPC 376D in Simple Words According to section 376D of the Indian Penal Code, if a woman is raped by a group of people acting together, each person involved will be considered as having committed the offense of rape and can be punished with rigorous imprisonment for at least twenty years, up to imprisonment for life, along with a fine, which will be used for the victim's medical expenses and rehabilitation.",
+        "offense": "Gang rape",
+        "punishment": "Rigorous Imprisonment for 20 years to Imprisonment for Natural-Life + Fine paid to the victim",
+        "cognizable": "Cognizable",
+        "bailable": "Non-bailable",
+        "court": "Court of Session"
+    },
+    "Section 376DA": {
+        "description": "Description of IPC Section 376DA According to section 376DA of Indian penal code, \"Where a woman under sixteen years of age is raped by one or more persons constituting a group or acting in furtherance of a common intention, each of those persons shall be deemed to have committed the offence of rape and shall be punished with imprisonment for life, which shall mean imprisonment for the remainder of that person?s natural life, and with fine:1 Provided that such fine shall be just and reasonable to meet the medical expenses and rehabilitation of the victim: Provided further that any fine imposed under this section shall be paid to the victim.\"",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 376DB": {
+        "description": "Description of IPC Section 376DB According to section 376DB of Indian penal code, \"Where a woman under twelve years of age is raped by one or more persons constituting a group or acting in furtherance of a common intention, each of those persons shall be deemed to have committed the offence of rape and shall be punished with imprisonment for life,which shall mean imprisonment for the remainder of that person?s natural life, and with fine, or with death:1 Provided that such fine shall be just and reasonable to meet the medical expenses and rehabilitation of the victim: Provided further that any fine imposed under this section shall be paid to the victim.\"",
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
+    },
+    "Section 376E": {
         "description": "Description of IPC Section 376E According to section 376E of Indian penal code, Whoever has been previously convicted of an offence punishable under section 376 or section 376A or section 376D and is subsequently convicted of an offence punishable under any of the said sections shall be punished with imprisonment for life which shall mean imprisonment for the remainder of that person\u00e2\u20ac\u2122s natural life, or with death. IPC 376E in Simple Words According to section 376E of the Indian Penal Code, a person previously convicted of certain sexual offenses (section 376, 376A, or 376D) and later convicted of another offense under these sections can be punished with either life imprisonment (imprisonment for the rest of their life) or death penalty.",
         "offense": "Repeat offenders",
         "punishment": "Imprisonment for Natural-Life or Death",
@@ -2025,11 +2409,11 @@
     },
     "Section 378": {
         "description": "Description of IPC Section 378 According to section 378 of Indian penal code, Whoever, intending to take dishonestly any movable property out of the possession of any person without that person\u00e2\u20ac\u2122s consent, moves that property in order to such taking, is said to commit theft. IPC 378 in Simple Words In the Indian Penal Code, moving someone's movable property with the intention of dishonestly taking it without their consent constitutes theft.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 379": {
         "description": "Description of IPC Section 379 According to section 379 of Indian penal code, Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 379 in Simple Words In the Indian Penal Code, anyone who commits theft can be punished with imprisonment for up to three years, a fine, or both. Cited by Prahlad Raut vs All India Institute Of Medical Govind Prasad Kejriwal vs The State Of Bihar State Of Nct Of Delhi vs Sanjay Chandran vs State Of Tamil Nadu Manish Jalan vs State Of Karnataka",
@@ -2065,11 +2449,11 @@
     },
     "Section 383": {
         "description": "Description of IPC Section 383 According to section 383 of Indian penal code, Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, or valuable security or anything signed or sealed which may be converted into a valuable security, commits \u201cextortion\u201d. IPC 383 in Simple Words According to section 383 of the Indian Penal Code, whoever intentionally puts someone in fear of injury and thereby dishonestly forces them to give up property or valuable items commits \"extortion.\"",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 384": {
         "description": "Description of IPC Section 384 According to section 384 of Indian penal code, Whoever commits extortion shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 384 in Simple Words According to section 384 of the Indian Penal Code, whoever commits extortion can be punished with imprisonment up to three years, or fined, or both. Cited by Abdulvahab Abdul Majid Shaikh and vs State Of Gujarat D M Nagaraja vs Govt Of Karnataka and Ors A N Venkatesh And Anr vs State Of Karnataka Karipi Rasheed Ahmed vs State Of Andhra Pradesh Dhananjay at Dhananjay Kumar Singh vs State Of Bihar and Anr",
@@ -2121,19 +2505,19 @@
     },
     "Section 390": {
         "description": "Description of IPC Section 390 According to section 390 of Indian penal code, In all robbery there is either theft or extortion. When theft is robbery \u2014 Theft is \u201crobbery\u201d if, in order to the committing of the theft, or in committing the theft, or in carrying away or attempting to carry away property obtained by the theft, the offender, for that end, voluntarily causes or attempts to cause to any person death or hurt or wrongful restraint, or fear of instant death or of instant hurt, or of instant wrongful restraint. When extortion is robbery \u2014 Extortion is \u201crobbery\u201d if the offender, at the time of committing the extortion, is in the presence of the person put in fear, and commits the extortion by putting that person in fear of instant death, of instant hurt, or of instant wrongful restraint to that person or to some other person, and, by so putting in fear, induces the person, so put in fear then and there to deliver up the thing extorted. IPC 390 in Simple Words In the Indian Penal Code, robbery is defined as theft or extortion accompanied by causing fear of instant harm or wrongful restraint to a person.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 391": {
         "description": "Description of IPC Section 391 According to section 391 of Indian penal code, When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding, is said to commit \u201cdacoity\u201d. IPC 391 in Simple Words If five or more people together commit or attempt to commit a robbery, or if the total number of people involved (including those aiding) is five or more, it is called \"dacoity\" in the Indian Penal Code.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 392": {
         "description": "Description of IPC Section 392 According to section 392 of Indian penal code, Whoever commits robbery shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine; and, if the robbery be committed on the highway between sunset and sunrise, the imprisonment may be extended to fourteen years. IPC 392 in Simple Words If someone commits robbery, they may face rigorous imprisonment for up to ten years and a fine; if it happens on a highway between sunset and sunrise, the imprisonment may be extended to fourteen years. Cited by Mohammad Bin Beerankutti vs State Of Karnataka Mohd Abdul Hafeez vs State Of Andhra Pradesh Jagdish vs State Of Haryana Ram Ratan vs State Of Madhya Pradesh",
@@ -2241,11 +2625,11 @@
     },
     "Section 405": {
         "description": "Description of IPC Section 405 According to section 405 of Indian penal code, Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, or of any legal contract, express or implied, which he has made touching the discharge of such trust, or wilfully suffers any other person so to do, commits \u201ccriminal breach of trust\u201d. IPC 405 in Simple Words When someone is entrusted with property but dishonestly misuses or converts it for their own benefit, it is considered \"criminal breach of trust\" according to section 405 of the Indian Penal Code.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 406": {
         "description": "Description of IPC Section 406 According to section 406 of Indian penal code, Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 406 in Simple Words Anyone who commits criminal breach of trust can be punished with imprisonment for up to three years, or a fine, or both. Cited by Varala Bharath Kumar vs The State Of Telangana Priti Saraf vs State Of Nct Of Delhi Pradeep Kumar vs State Of Bihar Arun Bhandari vs State Of Uttar Pradesh Udai Shankar Awasthi vs State Of Uttar Pradesh",
@@ -2281,11 +2665,11 @@
     },
     "Section 410": {
         "description": "Description of IPC Section 410 According to section 410 of Indian penal code, Property, the possession whereof has been transferred by theft, or by extortion, or by robbery, and property which has been criminally misappropriated or in respect of which criminal breach of trust has been committed, is designated as \u201cstolen property\u201d, whether the transfer has been made, or the misappropriation or breach of trust has been committed, within or without India. But, if such property subsequently comes into the possession of a person legally entitled to the possession thereof, it then ceases to be stolen property. IPC 410 in Simple Words Property obtained through theft, extortion, robbery, misappropriation, or breach of trust is considered \"stolen property,\" whether the act occurred within or outside India, but it stops being stolen property if a person legally entitled to it possesses it later on.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 411": {
         "description": "Description of IPC Section 411 According to section 411 of Indian penal code, Whoever dishonestly receives or retains any stolen property, knowing or having reason to believe the same to be stolen property, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. IPC 411 in Simple Words If someone knowingly keeps or receives stolen property, believing it to be stolen, they can be punished with imprisonment for up to three years, a fine, or both. Cited by Manish Dixit And Ors vs State Of Rajasthan Vijay Kumar vs State Of Rajasthan Kishore Bhadke vs State Of Maharashtra Rafiq Ahmed vs State Of Uttar Pradesh Ram Kalyan vs State Of Rajasthan",
@@ -2321,19 +2705,19 @@
     },
     "Section 415": {
         "description": "Description of IPC Section 415 According to section 415 of Indian penal code, Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to \u201ccheat\u201d. IPC 415 in Simple Words \"Cheating\" refers to deceiving someone and making them deliver property, consent to retain property, or act in a way that causes harm or damage due to fraud or dishonesty. Cited by Vijay Kumar Ghai vs The State Of West Bengal Satishchandra Ratanlal Shah vs The State Of Gujarat Rajesh Bajaj vs State Nct Of Delhi And Others Mitesh Kumar J Sha vs The State Of Karnataka Tilak Raj vs State Of Himachal Pradesh",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 416": {
         "description": "Description of IPC Section 416 According to section 416 of Indian penal code, A person is said to \u201ccheat by personation\u201d if he cheats by pretending to be some other person, or by knowingly substituting one person for or another, or representing that he or any other person is a person other than he or such other person really is. IPC 416 in Simple Words \"Cheating by personation\" means deceiving others by pretending to be someone else, substituting identities, or misrepresenting oneself or another person's identity.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 417": {
         "description": "Description of IPC Section 417 According to section 417 of Indian penal code, Whoever cheats shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both. IPC 417 in Simple Words If someone cheats, they can be punished with imprisonment for up to one year, a fine, or both.",
@@ -2401,11 +2785,11 @@
     },
     "Section 425": {
         "description": "Description of IPC Section 425 According to section 425 of Indian penal code, Whoever with intent to cause, or knowing that he is likely to cause, wrongful loss or damage to the public or to any person, causes the destruction of any property, or any such change in any property or in the situation thereof as destroys or diminishes its value or utility, or affects it injuriously, commits \u201cmischief\u201d. IPC 425 in Simple Words \"Mischief\" is committed when someone intentionally causes damage or destruction to property, leading to wrongful loss or harm to the public or individuals. Cited by George Bhaktan vs Rabindra Lele and Ors Kodungallur Film Society vs Union Of India The State Of Kerala vs K Ajith Kashiben Chhaganbhai Koli vs State Of Gujarat Iqbal Singh Narang and Ors vs Veeran Narang",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 426": {
         "description": "Description of IPC Section 426 According to section 426 of Indian penal code, Whoever commits mischief shall be punished with imprisonment of either description for a term which may extend to three months, or with fine, or with both. IPC 426 in Simple Words If someone commits mischief, they can be punished with imprisonment up to three months, or fined, or both.",
@@ -2529,51 +2913,51 @@
     },
     "Section 441": {
         "description": "Description of IPC Section 441 According to section 441 of Indian penal code, Whoever enters into or upon property in the possession of another with intent to commit an offence or to intimidate, insult or annoy any person in possession of such property, or having lawfully entered into or upon such property, unlawfully remains there with intent thereby to intimidate, insult or annoy any such person, or with intent to commit an offence, is said to commit \u201ccriminal trespass\u201d. IPC 441 in Simple Words Criminal trespass happens when a person enters someone else's property with the intention of committing an offense, intimidating, insulting, or annoying the property owner, or unlawfully remains on the property with similar intent. Cited by Yashpal Singh vs The State Of Uttar Pradesh S D Bandi vs Divisional Traffic Officer S R Ejaz vs The Tamil Nadu Handloom Abid vs State Of Uttar Pradesh Vidyadharan vs State Of Kerala",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 442": {
         "description": "Description of IPC Section 442 According to section 442 of Indian penal code, Whoever commits criminal trespass by entering into or remaining in any building, tent or vessel used as a human dwelling or any building used as a place for worship, or as a place for the custody of property, is said to commit \u201chouse-trespass\u201d. IPC 442 in Simple Words House-trespass occurs when a person unlawfully enters or stays in a dwelling place, place of worship, or a place used for keeping belongings.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 443": {
         "description": "Description of IPC Section 443 According to section 443 of Indian penal code, Whoever commits house-trespass having taken precautions to conceal such house-trespass from some person who has a right to exclude or eject the trespasser from the building, tent or vessel which is the subject of the trespass, is said to commit \u201clurking house-trespass\u201d. IPC 443 in Simple Words Lurking house-trespass is when someone unlawfully enters a building, tent, or vessel, while taking steps to hide their presence from someone who can legally remove them from the property.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 444": {
         "description": "Description of IPC Section 444 According to section 444 of Indian penal code, Whoever commits lurking house-trespass after sunset and before sunrise, is said to commit ?lurking house-trespass by night?.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 445": {
         "description": "Description of IPC Section 445 According to section 445 of Indian penal code, A person is said to commit \u201chouse-breaking\u201d who commits house-trespass if he effects his entrance into the house or any part of it in any of the six ways hereinafter described; or if, being in the house or any part of it for the purpose of committing an offence, or having committed an offence therein, he quits the house or any part of it in any of it in such six ways, that is to say: If he enters or quits through a passage made by himself, or by any abettor of the house-trespass, in order to the committing of the house-trespass. If he enters or quits through any passage not intended by any person, other than himself or an abettor of the offence, for human entrance; or through any passage to which he has obtained access by scaling or climbing over any wall or building. If he enters or quits through any passage which he or any abettor of the house-trespass has opened, in order to the committing of the house-trespass by any means by which that passage was not intended by the occupier of the house to be opened. If he enters or quits by opening any lock in order to the committing of the house-trespass, or in order to the quitting of the house after a house-trespass. If he effects his entrance or departure by using criminal force or committing an assault, or by threatening any person with assault. If he enters or quits by any passage which he knows to have been fastened against such entrance or departure, and to have been unfastened by himself or by an abettor of the house-trespass. IPC 445 in Simple Words House-breaking is when a person enters or leaves a house unlawfully in any of the six specified ways, which include using passages made for trespassing, climbing over walls, opening locks without permission, using force or threat, or knowingly using a previously fastened passage opened by them or an accomplice for trespassing.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 446": {
         "description": "Description of IPC Section 446 According to section 446 of Indian penal code, Whoever commits house-breaking after sunset and before sunrise, is said to commit ?house-breaking by night?.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 447": {
         "description": "Description of IPC Section 447 According to section 447 of Indian penal code, Whoever commits criminal trespass shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. IPC 447 in Simple Words If someone commits criminal trespass, they can be punished with imprisonment for up to three months, or a fine of up to five hundred rupees, or both. Cited by Batcu Venkateshwarlu And Ors vs Public Prosecutor High Court Sewa Singh vs State Of Punjab Sangappa and Ors vs State Of Karnataka Gurjant Singh vs State Of Punjab Neville Dadi Master at Neville vs The State Of West Bengal",
@@ -2705,19 +3089,19 @@
     },
     "Section 463": {
         "description": "Description of IPC Section 463 According to section 463 of Indian penal code, Whoever makes any false document or part of a document with intent to cause damage or injury, to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud or that fraud may be committed, commits forgery. IPC 463 in Simple Words Forgery is committed when someone creates a false document or part of a document with the intention to cause harm, deceive others, support a claim, acquire property, or engage in fraudulent activities.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 464": {
         "description": "Description of IPC Section 464 According to section 464 of Indian penal code, A person is said to make a false document: Who dishonestly or fraudulently makes, signs, seals or executes a document or part of a document, or makes any mark denoting the execution of a document, with the intention of causing it to be believed that such document or part of a document was made, signed, sealed or executed by or by the authority of a person by whom or by whose authority he knows that it was not made, signed, sealed or executed, or at a time at which he knows that it was not made, signed, sealed or executed; or Who, without lawful authority, dishonestly or fraudulently, by cancellation or otherwise, alters a document in any material part thereof, after it has been made or executed either by himself or by any other person, whether such person be living or dead at the time of such alteration; or Who dishonestly or fraudulently causes any person to sign, seal, execute or alter a document, knowing that such person by reason of unsoundness of mind or intoxication cannot, or that by reason of deception practised upon him, he does not know the contents of the document or the nature of the alteration. IPC 464 in Simple Words A person is said to make a false document if they dishonestly or fraudulently create, alter, or cause someone to sign a document with the intention to deceive others about its origin, content, or the authority behind it.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 465": {
         "description": "Description of IPC Section 465 According to section 465 of Indian penal code, Whoever commits forgery shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.",
@@ -2761,11 +3145,11 @@
     },
     "Section 470": {
         "description": "Description of IPC Section 470 According to section 470 of Indian penal code, A false document made wholly or in part by forgery is designated ?a forged document?.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 471": {
         "description": "Description of IPC Section 471 According to section 471 of Indian penal code, Whoever fraudulently or dishonestly uses as genuine any document which he knows or has reason to believe to be a forged document, shall be punished in the same manner as if he had forged such document. IPC 471 in Simple Words If someone knowingly uses a forged document, pretending it is genuine, they will be punished as if they had forged the document themselves. Cited by Rajendra Ramchandra Kavalekar vs State Of Maharashtra and Anr Hema vs State Tr Insp Of Police Madras C B I vs Jagjit Singh The State Of Gujarat vs Afroz Mohammed Hasanfatta Deepak Gaba vs State Of Uttar Pradesh",
@@ -2816,6 +3200,14 @@
         "court": "Magistrate First Class"
     },
     "Section 477": {
+        "description": "Description of IPC Section 477 According to section 477 of Indian penal code, Whoever fraudulently or dishonestly, or with intent to cause damage or injury to the public or to any person, cancels, destroys or defaces, or attempts to cancel, destroy or deface, or secretes or attempts to secrete any document which is or purports to be a will, or an authority to adopt a son, or any valuable security, or commits mischief in respect of such document, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. IPC 477 in Simple Words If someone fraudulently destroys, defaces, or conceals a document such as a will, an authority to adopt a son, or any valuable security, with the intent to cause harm to the public or any person, they can be punished with life imprisonment, or imprisonment for up to seven years, and may also be fined.",
+        "offense": "Fraudulently destroying or defacing, or attempting to destroy or deface, or secreting, a will, etc.",
+        "punishment": "Imprisonment for Life or 7 Years + Fine",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Magistrate First Class"
+    },
+    "Section 477A": {
         "description": "Description of IPC Section 477A According to section 477A of Indian penal code, Whoever, being a clerk, officer or servant, or employed or acting in the capacity of a clerk, officer or servant, willfully, and with intent to defraud, destroys, alters, mutilates or falsifies any book, paper, writing, valuable security or account which belongs to or is in the possession of his employer, or has been received by him for or on behalf of his employer, or willfully, and with intent to defraud, makes or abets the making of any false entry in, or omits or alters or abets the omission or alteration of any material particular from or in any such book, paper, writing, valuable security or account, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both. IPC 477A in Simple Words If a clerk, officer, or servant intentionally and with the aim to defraud, destroys, alters, falsifies any book, document, or valuable item belonging to or in the possession of their employer, or makes false entries, omits, or alters important details in such documents, they can be punished with imprisonment for up to seven years, a fine, or both.",
         "offense": "Falsification of accounts",
         "punishment": "7 Years or Fine or Both",
@@ -2825,35 +3217,35 @@
     },
     "Section 478": {
         "description": "Description of IPC Section 478 According to section 478 of Indian penal code, Repealed by the Trade and Merchandise Marks Act, 1958 (43 of 1958), S. 135 and Sch.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 479": {
         "description": "Description of IPC Section 479 According to section 479 of Indian penal code, A mark used for denoting that movable property belongs to a particular person is called a property mark.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 480": {
         "description": "Description of IPC Section 480 According to section 480 of Indian penal code, Repealed by the Trade and Merchandise Marks Act, 1958 (43 of 1958), S. 135 and Sch.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 481": {
         "description": "Description of IPC Section 481 According to section 481 of Indian penal code, Whoever marks any movable property or goods or any case, package or other receptacle containing movable property or goods, or uses any case, package or other receptacle having any mark thereon, in a manner reasonably calculated to cause it to be believed that the property or goods so marked, or any property or goods contained in any such receptacle so marked, belong to a person to whom they do not belong, is said to use a false property mark. IPC 481 in Simple Words If someone puts a mark on movable property or its container in a way that deceives others into believing that the property or goods belong to someone else, they are said to use a false property mark.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 482": {
         "description": "Description of IPC Section 482 According to section 482 of Indian penal code, Whoever uses any false property mark shall, unless he proves that he acted without intent to defraud, be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both. IPC 482 in Simple Words If someone uses a false property mark and cannot prove they did it without intent to defraud, they can be punished with imprisonment for up to one year, a fine, or both. Cited by Yogendra Yadav and Ors vs State Of Jharkhand and Anr Jugesh Sehgal vs Shamsher Singh Gogi Rajinder Prasad vs Bashir and Ors Charanjit Singh Chadha And Ors vs Sudhir Mehra M Krishnan vs Vijay Singh And Anr",
@@ -2912,6 +3304,46 @@
         "court": "Any Magistrate"
     },
     "Section 489": {
+        "description": "Description of IPC Section 489 According to section 489 of Indian penal code, Whoever removes, destroys, defaces or adds to any property mark, intending or knowing it to be likely that he may thereby cause injury to any person, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both. IPC 489 in Simple Words If someone intentionally removes, destroys, defaces, or alters any property mark, knowing it might cause harm to someone, they can be punished with imprisonment for up to one year, a fine, or both.",
+        "offense": "Removing destroying or defacing property mark with intent to cause injury",
+        "punishment": "1 Year or Fine or Both",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 489A": {
+        "description": "Description of IPC Section 489A According to section 489A of Indian penal code, Whoever counterfeits, or knowingly performs any part of the process of counterfeiting, any currency-note or bank-note, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. IPC 489A in Simple Words If someone counterfeits or is involved in the process of counterfeiting currency notes or banknotes, they can be punished with life imprisonment or imprisonment for up to ten years, along with a fine.",
+        "offense": "Counterfeiting currency-notes or bank-notes",
+        "punishment": "Imprisonment for Life or 10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 489B": {
+        "description": "Description of IPC Section 489B According to section 489B of Indian penal code, Whoever sells to, or buys or receives from, any other person, or otherwise traffics in or uses as genuine, any forged or counterfeit currency-note or bank-note, knowing or having reason to believe the same to be forged or counterfeit, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. IPC 489B in Simple Words If someone knowingly sells, buys, receives, or uses as genuine any forged or counterfeit currency notes or banknotes, they can be punished with life imprisonment or imprisonment for up to ten years, along with a fine.",
+        "offense": "Using as genuine forged or counterfeit currency-notes or bank-notes",
+        "punishment": "Imprisonment for Life or 10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 489C": {
+        "description": "Description of IPC Section 489C According to section 489C of Indian penal code, Whoever has in his possession any forged or counterfeit currency-note or bank-note, knowing or having reason to believe the same to be forged or counterfeit and intending to use the same as genuine or that it may be used as genuine, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both. IPC 489C in Simple Words If someone knowingly possesses forged or counterfeit currency notes or banknotes with the intent to use them as genuine or allow others to use them as genuine, they can be punished with imprisonment for up to seven years, a fine, or both.",
+        "offense": "Possession of forged or counterfeit currency-notes or bank-notes",
+        "punishment": "7 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "court": "Court of Session"
+    },
+    "Section 489D": {
+        "description": "Description of IPC Section 489D According to section 489D of Indian penal code, Whoever makes, or performs any part of the process of making, or buys of sells or disposes of, or has in his possession, any machinery, instrument of material for the purpose of being used, or knowing or having reason to believe that it is intended to be used, for forging or counterfeiting any currency-note or bank-note, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. IPC 489D in Simple Words If someone makes, uses, buys, sells, or possesses any machinery or material for the purpose of forging or counterfeiting currency or banknotes, they can be punished with life imprisonment or imprisonment for up to ten years, along with a fine.",
+        "offense": "Making or possessing machinery, instrument or material for forging or counterfeiting currency-notes or bank-notes",
+        "punishment": "Imprisonment for Life or 10 Years + Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "court": "Court of Session"
+    },
+    "Section 489E": {
         "description": "Description of IPC Section 489E According to section 489E of Indian penal code, Whoever makes, or causes to be made, or uses for any purpose whatsoever, or delivers to any person, any document purporting to be, or in any way resembling, or so nearly resembling as to be calculated to deceive, any currency-note or bank-note shall be punished with fine which may extend to one hundred rupees. If any person, whose name appears on a document the making of which is an offence under sub-section (1), refuses, without lawful excuse, to disclose to a police-officer on being so required the name and address of the person by whom it was printed or otherwise made, he shall be punished with fine which may extend to two hundred rupees. Where the name of any person appears on any document in respect of which any person is charged with an offence under sub-section (1) or on any other document used or distributed in connection with that document it may, until the contrary is proved, be presumed that that person caused the document to be made. IPC 489E in Simple Words If anyone makes, uses, or delivers a document that resembles a currency or banknote, intending to deceive, they can be fined up to one hundred rupees; and if someone refuses to disclose the name and address of the person responsible for making such a document, they can be fined up to two hundred rupees; and if a person's name appears on the document, it is presumed that they caused it to be made unless proven otherwise.",
         "offense": "Making or using documents resembling currency-notes or bank-notes",
         "punishment": "Fine",
@@ -2937,11 +3369,11 @@
     },
     "Section 492": {
         "description": "Description of IPC Section 492 According to section 492 of Indian penal code, Repealed by the Workmen?s Breach of Contract (Repealing) Act, 1925 (3 of 1925), s. 2 and Sch.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 493": {
         "description": "Description of IPC Section 493 According to section 493 of Indian penal code, Every man who by deceit causes any woman who is not lawfully married to him to believe that she is lawfully married to him and to cohabit or have sexual intercourse with him in that belief, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. IPC 493 in Simple Words If a man deceives an unmarried woman into believing that she is lawfully married to him and engages in a relationship or sexual intercourse with her based on that false belief, he can be punished with imprisonment for up to ten years and may also be fined.",
@@ -2984,6 +3416,14 @@
         "court": "Magistrate First Class"
     },
     "Section 498": {
+        "description": "Description of IPC Section 498 According to section 498 of Indian penal code, Whoever takes or entices away any woman who is and whom he knows or has reason to believe to be the wife of any other man, from that man, or from any person having the care of her on behalf of that man, with intent that she may have illicit intercourse with any person, or conceals or detains with that intent any such woman, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. IPC 498 in Simple Words If someone takes or lures away a woman who they know is married to another man, with the intention that she engages in illicit relations with anyone else, or if they hide or detain her with that intention, they can be punished with imprisonment for up to two years, a fine, or both. Cited by Vikas vs State Of Rajasthan Athul Rao vs State Of Karnataka Jayaram Vithoba And Another vs The State Of Bombay Gurcharan Singh and Ors vs State Delhi Administration Joseph Shine vs Union Of India",
+        "offense": "Enticing or taking away or detaining with a criminal intent a married woman",
+        "punishment": "2 Years and Fine",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable",
+        "court": "Any Magistrate"
+    },
+    "Section 498A": {
         "description": "Description of IPC Section 498A According to section 498A of Indian penal code, Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine. IPC 498A in Simple Words If a woman's husband or a relative of the husband mistreats her, they can be punished with up to three years of imprisonment and may have to pay a fine. Cited by Meera vs State Preeti Gupta vs State Of Jharkhand Manju Ram Kalita vs State Of Assam Sushil Kumar Sharma vs Union Of India And Ors Arnesh Kumar vs State Of Bihar",
         "offense": "Punishment for subjecting a married woman to Cruelty",
         "punishment": "3 Years + Fine",
@@ -2993,11 +3433,11 @@
     },
     "Section 499": {
         "description": "Description of IPC Section 499 According to section 499 of Indian penal code, Whoever by words either spoken or intended to be read, or by signs or by visible representations, makes or publishes any imputation concerning any person intending to harm, or knowing or having reason to believe that such imputation will harm, the reputation of such person, is said, except in the cases hereinafter excepted, to defame that person. IPC 499 in Simple Words If someone makes or publishes false statements, signs, or visible representations with the intention to harm or with knowledge that it will harm the reputation of another person, they are said to defame that person, except in specific exempted cases. Cited by Miss Xyz vs The State Of Gujarat Manohar Lal Sharma vs Sanjay Leela Bhansali Arnab Ranjan Goswami vs Union Of India Manoj Kumar Tiwari vs Manish Sisodia Mohammed Abdulla Khan vs Prakash K",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 500": {
         "description": "Description of IPC Section 500 According to section 500 of Indian penal code, Whoever defames another shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both. IPC 500 in Simple Words If someone defames another person, they can be punished with up to two years of simple imprisonment, a fine, or both.",
@@ -3025,11 +3465,11 @@
     },
     "Section 503": {
         "description": "Description of IPC Section 503 According to section 503 of Indian penal code, Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, or to cause that person to do any act which he is not legally bound to do, or to omit to do any act which that person is legally entitled to do, as the means of avoiding the execution of such threat, commits criminal intimidation. IPC 503 in Simple Words Criminal intimidation is when someone threatens another with harm to their person, reputation, or property, intending to cause fear or coerce them into doing something they are not legally required to do or refraining from an act they have a legal right to do.",
-        "offense": null,
-        "punishment": null,
-        "cognizable": null,
-        "bailable": null,
-        "court": null
+        "offense": "Not specified",
+        "punishment": "Not specified",
+        "cognizable": "Not specified",
+        "bailable": "Not specified",
+        "court": "Not specified"
     },
     "Section 504": {
         "description": "Description of IPC Section 504 According to section 504 of Indian penal code, Whoever intentionally insults, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace, or to commit any other offence, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both. IPC 504 in Simple Words If someone intentionally insults another person, knowing it could provoke them to disturb public peace or commit another offense, they can be punished with imprisonment for up to two years, a fine, or both. Cited by Nazma vs Javed at Anjum Dinesh Tiwari vs State Of Uttar Pradesh and Anr Manjappa vs State Of Karnataka Jai Shree Yadav vs State Of Uttar Pradesh Udai Shankar Awasthi vs State Of Uttar Pradesh and Anr",

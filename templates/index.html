@@ -4,30 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPC Section Detection System</title>
+    <link rel="icon" href="../static/logo.jpeg" type="image/jpeg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
+        :root {
+            --primary-color: #6366f1;
+            --secondary-color: #4f46e5;
+            --bg-dark: #0f172a;
+            --card-dark: #1e293b;
+            --text-light: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --input-bg: rgba(30, 41, 59, 0.8);
+        }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f9fa;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
             padding-top: 20px;
             padding-bottom: 40px;
+            background-image: radial-gradient(circle at top right, #1e40af, transparent 60%), 
+                               radial-gradient(circle at bottom left, #4f46e5, transparent 60%);
+
         }
         
         .container {
+            /* width: 1000px; */
             max-width: 1000px;
-            background-color: white;
+            background-color: var(--card-dark);
+            /* background: linear-gradient(45deg, var(--primary-color), transparent, var(--secondary-color)); */
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
+
+            /* max-width: 1000px;
+            background-color: var(--card-dark);
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
+            margin-top: 20px; */
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, var(--primary-color), transparent, var(--secondary-color));
+            z-index: -1;
+            border-radius: 18px;
+            animation: border-glow 6s ease-in-out infinite alternate;
+            opacity: 0.3;
+        }
+        .login-container {
+            width: 100%;
+            max-width: 450px;
+            background-color: var(--card-dark);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--border-color);
+            backdrop-filter: blur(10px);
         }
         
-        h1 {
-            color: #343a40;
+        .logo-container {
             text-align: center;
-            margin-bottom: 30px;
-            font-weight: 600;
+            margin-bottom: 36px;
+        }
+        
+      .logo-container {
+        text-align: center;
+        margin-bottom: 36px;
+        position: relative;
+      }
+
+      .logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+
+      .logo:hover {
+        transform: scale(1.05);
+      }
+
+      .logo::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        background: linear-gradient(
+          45deg,
+          transparent 20%,
+          rgba(255, 255, 255, 0.2) 50%,
+          transparent 80%
+        );
+        transform: translateX(-100%);
+        animation: shimmer 3s infinite;
+      }
+
+      .logo img {
+        border-radius: 18px;
+        transition: all 0.3s ease;
+      }
+
+      @keyframes shimmer {
+        100% {
+          transform: translateX(50%);
+        }
+      }
+        
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            background: linear-gradient(to right, var(--primary-color), #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.5px;
         }
         
         .form-label {
@@ -67,11 +175,36 @@
             background-color: #6c757d;
             color: white;
         }
-        
+        .voice-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .voice-btn.active {
+            background-color: #dc3545;
+        }
+
+        .voice-btn:focus {
+            outline: none;
+        }
+
+        .voice-icon {
+            font-size: 1.5rem;
+        }
         .section-details {
             margin-top: 15px;
+            color: #2b2b2b;
         }
-        
+        .section-offense {
+            /* margin-top: 15px; */
+            color: #2b2b2b;
+        }
         .detail-item {
             margin-bottom: 8px;
         }
@@ -80,7 +213,10 @@
             font-weight: 500;
             color: #495057;
         }
-        
+        .section-offense{
+            font-weight: 500;
+            color: #495057;
+        }
         .loading-spinner {
             text-align: center;
             display: none;
@@ -171,11 +307,25 @@
             background-color: #ffc107;
             color: #212529;
         }
+        
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>IPC Section Detection System</h1>
+        <div class="logo-container">
+            <div class="logo">
+                <!-- <i class="fas fa-balance-scale fa-2x" style="color: white;"></i> -->
+                 <img src="../static/logo.jpeg" alt="logo" style="width: 100px; height: 100px;">
+            </div>
+            <h1>JurisAI</h1>
+            <p class="subtitle">IPC Section Detection System</p>
+        </div>
+        <!-- <h1>IPC Section Detection System</h1> -->
         
         <div class="examples-container">
             <button class="btn btn-sm btn-outline-secondary mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#examplesCollapse" aria-expanded="false" aria-controls="examplesCollapse">
@@ -207,12 +357,83 @@
                 </div>
             </div>
         </div>
-        
         <div class="mb-3">
             <label for="firText" class="form-label">Enter FIR Complaint Text:</label>
-            <textarea class="form-control" id="firText" rows="6" placeholder="Paste your FIR complaint text here..."></textarea>
+            <div class="input-group">
+                <textarea class="form-control" id="firText" rows="6" placeholder="Enter your FIR complaint text here..."></textarea>
+                <button id="voiceBtn" class="voice-btn" title="Click to start/stop voice input">
+                    <i class="voice-icon">🎤</i>
+                </button>
+            </div>
         </div>
-        
+        <!-- <div class="mb-3">
+            <label for="firText" class="form-label">Enter FIR Complaint Text:</label>
+            <textarea class="form-control" id="firText" rows="6" placeholder="Paste your FIR complaint text here..."></textarea>
+        </div> -->
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            /* ... existing JavaScript code ... */
+
+            // Voice input functionality
+            const voiceBtn = document.getElementById('voiceBtn');
+            const firText = document.getElementById('firText');
+            let recognition;
+            let listening = false;
+            let finalTranscript = '';  // To store the final transcript
+
+            // Check if the browser supports the Web Speech API
+            if ('webkitSpeechRecognition' in window) {
+                recognition = new webkitSpeechRecognition();
+                recognition.continuous = false;  // Set to false for single-sentence input
+                recognition.interimResults = true;  // Handle interim results to avoid repetition
+                recognition.lang = 'en-IN';  // Set language to Indian English
+
+                recognition.onstart = function() {
+                    listening = true;
+                    finalTranscript = '';  // Clear the final transcript at the start
+                    voiceBtn.classList.add('active');
+                    voiceBtn.title = "Click to stop voice input";
+                };
+
+                recognition.onerror = function(event) {
+                    console.error('Speech recognition error:', event.error);
+                    listening = false;
+                    voiceBtn.classList.remove('active');
+                    voiceBtn.title = "Click to start voice input";
+                };
+
+                recognition.onend = function() {
+                    listening = false;
+                    voiceBtn.classList.remove('active');
+                    voiceBtn.title = "Click to start voice input";
+                };
+
+                recognition.onresult = function(event) {
+                    let interimTranscript = '';
+                    for (let i = event.resultIndex; i < event.results.length; ++i) {
+                        if (event.results[i].isFinal) {
+                            finalTranscript += event.results[i][0].transcript;
+                        } else {
+                            interimTranscript += event.results[i][0].transcript;
+                        }
+                    }
+                    firText.value = finalTranscript + interimTranscript;
+                };
+
+                voiceBtn.addEventListener('click', function() {
+                    if (listening) {
+                        recognition.stop();
+                    } else {
+                        recognition.start();
+                    }
+                });
+            } else {
+                console.warn("Web Speech API is not supported in this browser.");
+                voiceBtn.style.display = 'none';  // Hide the button if not supported
+            }
+
+        });
+    </script>
         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
             <button id="predictBtn" class="btn btn-primary btn-lg">Predict IPC Sections</button>
             <button id="clearBtn" class="btn btn-secondary btn-lg">Clear</button>

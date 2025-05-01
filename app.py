@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, redirect, url_for
 import joblib
 import pandas as pd
 import re
@@ -244,7 +244,6 @@ def get_top_sections(model, features, classes, top_n=5, threshold=0.05):
         prediction = model.predict(features)[0]
         return [(prediction, 1.0)]
 
-# Special handling for rape cases
 def check_for_rape(text):
     """Check specifically for rape/sexual assault indicators"""
     text_lower = text.lower()
@@ -277,7 +276,6 @@ def check_for_rape(text):
     
     return rape_sections, score >= 5
 
-# Special handling for robbery cases
 def check_for_robbery(text):
     """Check specifically for robbery indicators"""
     text_lower = text.lower()
@@ -314,11 +312,26 @@ def check_for_robbery(text):
 
 @app.route('/')
 def home():
-    print("Home route accessed!")
-    template_path = os.path.join(template_dir, 'index.html')
-    print(f"Looking for template at: {template_path}")
-    print(f"Template exists: {os.path.exists(template_path)}")
-    return render_template('index.html')
+    return render_template('index.html')    
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        aadhaar = request.form['aadhaar']
+
+        # Static credentials
+        staticUsername = "user"
+        staticPassword = "password"
+        staticAadhaar = "123456789012"
+
+        if ((username == staticUsername and password == staticPassword) or (aadhaar == staticAadhaar)):
+            return redirect(url_for('home'))  # Redirect to the prediction page
+        else:
+            return render_template('login.html', error="Invalid credentials. Please try again.")
+
+    return render_template('login.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -364,7 +377,7 @@ def predict():
             top_n=5, 
             threshold=0.05
         )
-        
+
         # Get multi-label predictions
         multi_pred_binary = multi_model.predict(text_features)
         multi_pred_sections = mlb.inverse_transform(multi_pred_binary)[0]

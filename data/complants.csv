@@ -1,0 +1,70 @@
+FIR_Complaint,IPC_Sections,Category
+"While walking home from the grocery store, I was approached by two men on a motorcycle. They threatened me with a knife and snatched my purse and phone.","Section 392, Section 397",Robbery
+"A group of men entered my house at night, tied up my family, and stole all our valuables, including cash and jewelry.","Section 395, Section 450",Dacoity
+My neighbor constantly harasses my family by playing loud music at night and using abusive language.,"Section 294, Section 506",Harassment
+My car was stolen last night from outside my house while I was sleeping.,Section 379,Theft
+"While traveling on a bus, a man inappropriately touched me despite my protests.","Section 354, Section 509",Sexual Harassment
+"A person is selling illegal drugs near the school, putting students at risk.",Section 27 NDPS Act,Drug Offense
+An online seller took advance payment from me for a mobile phone but never delivered the product and is now unreachable.,Section 420,Fraud
+"A group of individuals gathered without permission and started shouting slogans, causing public nuisance.","Section 143, Section 268",Unlawful Assembly
+"My shop was broken into last night, and all the cash from the register was stolen.","Section 457, Section 380",Burglary
+"Someone spread false and defamatory information about me on social media, harming my reputation.","Section 499, Section 500",Defamation
+A person forged my property documents and illegally sold my land.,"Section 465, Section 467",Forgery
+"A vendor is selling expired food products, risking public health.","Section 272, Section 273",Food Adulteration
+I was forced to marry against my will by my family.,Section 366,Forced Marriage
+My business partner withdrew a large sum of money from our joint account and disappeared.,"Section 406, Section 420",Criminal Breach of Trust
+A group of men in a car chased me and tried to abduct me on my way home from work.,"Section 363, Section 366",Kidnapping
+A person threw acid on my sister over a personal dispute.,Section 326A,Acid Attack
+A drunk driver crashed into my parked car and fled the scene.,"Section 279, Section 427",Hit and Run
+A husband tortured his wife for dowry and assaulted her repeatedly.,Section 498A,Domestic Violence
+My bike was stolen from the parking lot of my office.,Section 379,Vehicle Theft
+"A man intentionally spread rumors about a religious community, inciting violence.","Section 153A, Section 505",Hate Speech
+A cybercriminal hacked my email and used my identity for fraudulent activities.,Section 66C IT Act,Cyber Crime
+A fake insurance agent scammed my parents by selling them a non-existent policy.,Section 420,Fraud
+A government official demanded a bribe to process my application.,Section 7 PC Act,Bribery
+A gang of men attacked a rival group with deadly weapons in our locality.,"Section 307, Section 148",Attempt to Murder
+"While walking home from the grocery store, I was approached by two men on a motorcycle. They threatened me with a knife and snatched my purse and phone.","['Section 392', 'Section 397']",Robbery
+"My house was broken into last night. The intruders stole cash, jewelry, and electronic items.","['Section 457', 'Section 380']",Burglary
+"A man has been sending me obscene messages and making inappropriate calls, causing me distress.","['Section 354A', 'Section 509']",Harassment
+I was kidnapped on my way home from work. The kidnappers demanded a ransom of Rs. 10 lakhs.,"['Section 363', 'Section 364A']",Kidnapping
+"During a family dispute, my uncle attacked me with a knife, causing serious injuries.","['Section 307', 'Section 324']",Assault
+I was blackmailed by someone threatening to release private photos unless I paid them money.,"['Section 503', 'Section 384']",Blackmail
+"A group of people vandalized our neighborhood, breaking car windows and spray-painting walls.","['Section 427', 'Section 143']",Vandalism
+My business partner embezzled funds from our company account and fled the country.,"['Section 406', 'Section 420']",Fraud
+"My neighbor has been stalking me, showing up at my workplace and following me home.",['Section 354D'],Stalking
+"During a protest, police detained me without cause and held me overnight.","['Section 341', 'Section 342']",Unlawful Detention
+My ex-partner is harassing me by spreading false rumors online and sending threatening emails.,"['Section 499', 'Section 503']",Cyber Harassment
+Someone hacked into my online banking account and transferred money without my consent.,"['Section 66C of IT Act', 'Section 420']",Cyber Crime
+"A gang has been extorting money from local shopkeepers, threatening them with violence if they refuse.","['Section 384', 'Section 506']",Extortion
+"An unknown person has been calling my phone at all hours, using obscene language.",['Section 509'],Harassment
+A group of men forcibly entered my house and threatened us with weapons over a land dispute.,"['Section 441', 'Section 506']",Land Dispute
+"During the night, someone set fire to our barn, causing it to burn down completely.",['Section 436'],Arson
+I was drugged at a party and woke up to find my valuables missing.,"['Section 328', 'Section 379']",Theft and Poisoning
+My landlord cut off our water supply as a form of harassment to force us to leave.,"['Section 441', 'Section 506']",Harassment
+A street vendor was beaten up by a group of youths who also destroyed his cart.,"['Section 323', 'Section 427']",Assault and Vandalism
+I was tricked into investing in a fake company and lost all my savings.,['Section 420'],Fraud
+My daughter was followed home by a stranger who then attempted to abduct her.,['Section 363'],Child Abduction
+"An online scammer tricked me into sharing my bank details, resulting in unauthorized transactions.","['Section 66D of IT Act', 'Section 420']",Cyber Fraud
+A man was caught attempting to sell stolen vehicles in our area.,['Section 411'],Stolen Property
+"My child was bullied at school, resulting in physical injuries.",['Section 323'],Bullying
+"A fight broke out during a wedding, leading to several injuries and property damage.","['Section 147', 'Section 323']",Riot
+My tenant illegally changed the locks and refused to vacate the property.,"['Section 441', 'Section 448']",Illegal Occupation
+A software developer was caught stealing company data for personal gain.,"['Section 408', 'Section 66 of IT Act']",Data Theft
+A person was caught using fake currency notes at the local market.,"['Section 489B', 'Section 489C']",Counterfeiting
+My car was deliberately scratched and vandalized by an unknown assailant.,['Section 427'],Vandalism
+A local politician was caught accepting bribes for issuing permits.,['Section 7 of Prevention of Corruption Act'],Corruption
+I was repeatedly threatened by a loan shark demanding repayment with exorbitant interest.,"['Section 384', 'Section 506']",Loan Sharking
+"A suspicious package was found at the bus station, causing panic and a bomb squad investigation.","['Section 505', 'Section 286']",Public Safety Threat
+A group was caught smuggling rare wildlife species across the border.,['Section 51 of Wildlife Protection Act'],Wildlife Crime
+"A neighbor has been illegally tapping into our electricity supply, causing inflated bills.",['Section 379'],Utility Theft
+My friend was falsely accused and imprisoned due to fabricated evidence by a rival.,['Section 211'],False Accusation
+A local shop was selling expired and hazardous food products.,['Section 273'],Food Safety Violation
+A man was caught on camera breaking into a jewelry store and stealing valuables.,"['Section 457', 'Section 380']",Burglary
+A tenant was arrested for running an illegal gambling operation from a rented property.,['Section 3 of Public Gambling Act'],Illegal Gambling
+A group of teenagers was found vandalizing public property during a festival.,"['Section 427', 'Section 143']",Vandalism
+"A cyber attack was launched against our company, compromising sensitive customer data.","['Section 43 of IT Act', 'Section 66 of IT Act']",Cyber Attack
+A man was caught impersonating a government official to extort money from the public.,"['Section 170', 'Section 384']",Impersonation
+"An illegal drug lab was discovered in a secluded area, producing synthetic drugs.",['Section 22 of NDPS Act'],Drug Manufacturing
+A person was arrested for illegally possessing a firearm without a license.,['Section 25 of Arms Act'],Illegal Possession of Arms
+A man was caught red-handed trying to bribe a police officer to avoid a traffic ticket.,['Section 12 of Prevention of Corruption Act'],Bribery
+"A teacher was accused of physically abusing a student, causing severe injuries.","['Section 323', 'Section 325']",Child Abuse
