@@ -8,6 +8,10 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 import os
 import numpy as np
+import sqlite3
+from flask_mail import Mail, Message
+from twilio.rest import Client
+import random
 
 # Get absolute path to this file's directory
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +25,34 @@ print(f"Current directory: {os.getcwd()}")
 print(f"Base directory: {base_dir}")
 print(f"Template directory: {template_dir}")
 print(f"Model directory: {model_dir}")
+
+def generate_verification_code():
+    return random.randint(100000, 999999)
+
+# Connect to the database
+conn = sqlite3.connect('users.db')
+cursor = conn.cursor()
+
+# Create users table
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL,
+    email TEXT NOT NULL,
+    mobile TEXT NOT NULL,
+    aadhaar TEXT NOT NULL
+)
+''')
+
+# Add a sample user (for testing purposes)
+cursor.execute('''
+INSERT INTO users (username, password, email, mobile, aadhaar)
+VALUES ('testuser', 'testpassword', 'testuser@example.com', '1234567890', '123456789012')
+''')
+
+conn.commit()
+conn.close()
 
 # Load the balanced model
 try:
@@ -317,19 +349,30 @@ def home():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
-        aadhaar = request.form['aadhaar']
+        # Get form data
+        username = request.form.get('username')
+        password = request.form.get('password')
+        aadhaar = request.form.get('aadhaar')
 
-        # Static credentials
-        staticUsername = "user"
-        staticPassword = "password"
-        staticAadhaar = "123456789012"
+        # Connect to the database
+        conn = sqlite3.connect('users.db')
+        cursor = conn.cursor()
 
-        if ((username == staticUsername and password == staticPassword) or (aadhaar == staticAadhaar)):
-            return redirect(url_for('home'))  # Redirect to the prediction page
+        # Check if username and password match
+        cursor.execute('SELECT * FROM users WHERE username = ? AND password = ?', (username, password))
+        user = cursor.fetchone()
+
+        # Check if Aadhaar matches
+        cursor.execute('SELECT * FROM users WHERE aadhaar = ?', (aadhaar,))
+        aadhaar_user = cursor.fetchone()
+
+        conn.close()
+
+        # Validate credentials
+        if user or aadhaar_user:
+            return jsonify({'message': 'Login successful! Redirecting...'}), 200
         else:
-            return render_template('login.html', error="Invalid credentials. Please try again.")
+            return jsonify({'message': 'Invalid credentials, please try again.'}), 401
 
     return render_template('login.html')
 
@@ -526,4 +569,4 @@ def test_case():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5050)  
+    app.run(debug=True, port=5050)
