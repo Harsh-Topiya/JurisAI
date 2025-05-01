@@ -66,7 +66,12 @@ VALUES ('testuser', 'testpassword', '123456789012')
 conn.commit()
 conn.close()
 
-# Session key 
+# Method for generation of session key
+# import secrets
+# app.secret_key = secrets.token_hex(16)
+
+
+# Secret key for session management
 app.secret_key = 'e5b8c3a7d9f4e2a1b6c8d7e9f0a2b3c4'  # Replace with a secure random key
 
 # Load the balanced model
