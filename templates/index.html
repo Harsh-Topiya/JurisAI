@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IPC Section Detection System</title>
     <link rel="icon" href="../static/logo.jpeg" type="image/jpeg" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        :root {
-            --primary-color: #6366f1;
-            --secondary-color: #4f46e5;
-            --bg-dark: #0f172a;
-            --card-dark: #1e293b;
-            --text-light: #f8fafc;
-            --text-muted: #94a3b8;
-            --border-color: rgba(255, 255, 255, 0.08);
-            --input-bg: rgba(30, 41, 59, 0.8);
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-light);
-            padding-top: 20px;
-            padding-bottom: 40px;
-            background-image: radial-gradient(circle at top right, #1e40af, transparent 60%), 
-                               radial-gradient(circle at bottom left, #4f46e5, transparent 60%);
+      :root {
+        --primary-color: #6366f1;
+        --secondary-color: #4f46e5;
+        --bg-dark: #0f172a;
+        --card-dark: #1e293b;
+        --text-light: #f8fafc;
+        --text-muted: #94a3b8;
+        --border-color: rgba(255, 255, 255, 0.08);
+        --input-bg: rgba(30, 41, 59, 0.8);
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--bg-dark);
+        color: var(--text-light);
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-image: radial-gradient(
+            circle at top right,
+            #1e40af,
+            transparent 60%
+          ),
+          radial-gradient(circle at bottom left, #4f46e5, transparent 60%);
+      }
 
-        }
-        
-        .container {
-            /* width: 1000px; */
-            max-width: 1000px;
-            background-color: var(--card-dark);
-            /* background: linear-gradient(45deg, var(--primary-color), transparent, var(--secondary-color)); */
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-            border: 1px solid var(--border-color);
-            backdrop-filter: blur(10px);
+      .container {
+        /* width: 1000px; */
+        max-width: 1000px;
+        background-color: var(--card-dark);
+        /* background: linear-gradient(45deg, var(--primary-color), transparent, var(--secondary-color)); */
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+        border: 1px solid var(--border-color);
+        backdrop-filter: blur(10px);
 
-            /* max-width: 1000px;
+        /* max-width: 1000px;
             background-color: var(--card-dark);
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             margin-top: 20px; */
-        }
-        .container::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(45deg, var(--primary-color), transparent, var(--secondary-color));
-            z-index: -1;
-            border-radius: 18px;
-            animation: border-glow 6s ease-in-out infinite alternate;
-            opacity: 0.3;
-        }
-        .login-container {
-            width: 100%;
-            max-width: 450px;
-            background-color: var(--card-dark);
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-            border: 1px solid var(--border-color);
-            backdrop-filter: blur(10px);
-        }
-        
-        .logo-container {
-            text-align: center;
-            margin-bottom: 36px;
-        }
-        
+      }
+      .container::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        background: linear-gradient(
+          45deg,
+          var(--primary-color),
+          transparent,
+          var(--secondary-color)
+        );
+        z-index: -1;
+        border-radius: 18px;
+        animation: border-glow 6s ease-in-out infinite alternate;
+        opacity: 0.3;
+      }
+      .login-container {
+        width: 100%;
+        max-width: 450px;
+        background-color: var(--card-dark);
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+        border: 1px solid var(--border-color);
+        backdrop-filter: blur(10px);
+      }
+
+      .logo-container {
+        text-align: center;
+        margin-bottom: 36px;
+      }
+
       .logo-container {
         text-align: center;
         margin-bottom: 36px;
@@ -127,478 +138,591 @@
           transform: translateX(50%);
         }
       }
-        
-        h1 {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 5px;
-            background: linear-gradient(to right, var(--primary-color), #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            letter-spacing: 0.5px;
-        }
-        
-        .form-label {
-            font-weight: 500;
-        }
-        
-        .section-card {
-            background-color: #f8f9fa;
-            border-left: 5px solid #0d6efd;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-        
-        .section-card:hover {
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .section-card.category-match {
-            border-left: 5px solid #28a745;
-        }
-        
-        .section-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #0d6efd;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .category-badge {
-            font-size: 0.8rem;
-            padding: 3px 8px;
-            border-radius: 4px;
-            background-color: #6c757d;
-            color: white;
-        }
-        .voice-btn {
-            background-color: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            padding: 10px;
-            cursor: pointer;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease;
-        }
 
-        .voice-btn.active {
-            background-color: #dc3545;
-        }
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        background: linear-gradient(to right, var(--primary-color), #8b5cf6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 0.5px;
+      }
 
-        .voice-btn:focus {
-            outline: none;
-        }
+      .form-label {
+        font-weight: 500;
+      }
 
-        .voice-icon {
-            font-size: 1.5rem;
-        }
-        .section-details {
-            margin-top: 15px;
-            color: #2b2b2b;
-        }
-        .section-offense {
-            /* margin-top: 15px; */
-            color: #2b2b2b;
-        }
-        .detail-item {
-            margin-bottom: 8px;
-        }
-        
-        .detail-label {
-            font-weight: 500;
-            color: #495057;
-        }
-        .section-offense{
-            font-weight: 500;
-            color: #495057;
-        }
-        .loading-spinner {
-            text-align: center;
-            display: none;
-            margin: 30px 0;
-        }
-        
-        #resultSection {
-            display: none;
-            margin-top: 30px;
-        }
-        
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #6c757d;
-            font-size: 0.9rem;
-        }
-        
-        .badge-cognizable {
-            background-color: #dc3545;
-            color: white;
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        
-        .badge-non-cognizable {
-            background-color: #6c757d;
-            color: white;
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        
-        .badge-bailable {
-            background-color: #28a745;
-            color: white;
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        
-        .badge-non-bailable {
-            background-color: #dc3545;
-            color: white;
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        
-        .confidence-bar {
-            margin-top: 15px;
-        }
-        
-        .examples-container {
-            margin-bottom: 20px;
-        }
-        
-        #chartsSection {
-            margin-top: 30px;
-            display: none;
-        }
-        
-        .detected-categories {
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #e9ecef;
-            border-radius: 5px;
-        }
-        
-        .category-tag {
-            display: inline-block;
-            background-color: #6610f2;
-            color: white;
-            padding: 5px 10px;
-            margin: 3px;
-            border-radius: 15px;
-            font-size: 0.85rem;
-        }
-        
-        .relevance-indicator {
-            display: inline-block;
-            margin-left: 10px;
-            font-size: 0.8rem;
-            padding: 2px 8px;
-            border-radius: 10px;
-            background-color: #28a745;
-            color: white;
-        }
-        
-        .relevance-indicator.low {
-            background-color: #ffc107;
-            color: #212529;
-        }
-        
-        .subtitle {
-            color: var(--text-muted);
-            margin-bottom: 30px;
-            font-size: 15px;
-        }
+      .section-card {
+        background-color: #f8f9fa;
+        border-left: 5px solid #0d6efd;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .section-card:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .section-card.category-match {
+        border-left: 5px solid #28a745;
+      }
+
+      .section-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #0d6efd;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .category-badge {
+        font-size: 0.8rem;
+        padding: 3px 8px;
+        border-radius: 4px;
+        background-color: #6c757d;
+        color: white;
+      }
+      .voice-btn {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+      }
+
+      .voice-btn.active {
+        background-color: #dc3545;
+      }
+
+      .voice-btn:focus {
+        outline: none;
+      }
+
+      .voice-icon {
+        font-size: 1.5rem;
+      }
+      .section-details {
+        margin-top: 15px;
+        color: #2b2b2b;
+      }
+      .section-offense {
+        /* margin-top: 15px; */
+        color: #2b2b2b;
+      }
+      .detail-item {
+        margin-bottom: 8px;
+      }
+
+      .detail-label {
+        font-weight: 500;
+        color: #495057;
+      }
+      .section-offense {
+        font-weight: 500;
+        color: #495057;
+      }
+      .loading-spinner {
+        text-align: center;
+        display: none;
+        margin: 30px 0;
+      }
+
+      #resultSection {
+        display: none;
+        margin-top: 30px;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 30px;
+        color: #6c757d;
+        font-size: 0.9rem;
+      }
+
+      .badge-cognizable {
+        background-color: #dc3545;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+
+      .badge-non-cognizable {
+        background-color: #6c757d;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+
+      .badge-bailable {
+        background-color: #28a745;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+
+      .badge-non-bailable {
+        background-color: #dc3545;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+      }
+
+      .confidence-bar {
+        margin-top: 15px;
+      }
+
+      .examples-container {
+        margin-bottom: 20px;
+      }
+
+      #chartsSection {
+        margin-top: 30px;
+        display: none;
+      }
+
+      .detected-categories {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #e9ecef;
+        border-radius: 5px;
+      }
+
+      .category-tag {
+        display: inline-block;
+        background-color: #6610f2;
+        color: white;
+        padding: 5px 10px;
+        margin: 3px;
+        border-radius: 15px;
+        font-size: 0.85rem;
+      }
+
+      .relevance-indicator {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 0.8rem;
+        padding: 2px 8px;
+        border-radius: 10px;
+        background-color: #28a745;
+        color: white;
+      }
+
+      .relevance-indicator.low {
+        background-color: #ffc107;
+        color: #212529;
+      }
+
+      .subtitle {
+        color: var(--text-muted);
+        margin-bottom: 30px;
+        font-size: 15px;
+      }
     </style>
-</head>
-<body>
-    <div style="position: absolute; top: 20px; right: 20px;">
-        <a href="/logout" class="btn btn-danger">Logout</a>
-      </div>
-      
+  </head>
+  <body>
+    <div style="position: absolute; top: 20px; right: 20px">
+      <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
+
     <div class="container">
-        <div class="logo-container">
-            <div class="logo">
-                <!-- <i class="fas fa-balance-scale fa-2x" style="color: white;"></i> -->
-                 <img src="../static/logo.jpeg" alt="logo" style="width: 100px; height: 100px;">
-            </div>
-            <h1>JurisAI</h1>
-            <p class="subtitle">IPC Section Detection System</p>
+      <div class="logo-container">
+        <div class="logo">
+          <!-- <i class="fas fa-balance-scale fa-2x" style="color: white;"></i> -->
+          <img
+            src="../static/logo.jpeg"
+            alt="logo"
+            style="width: 100px; height: 100px"
+          />
         </div>
-        <!-- <h1>IPC Section Detection System</h1> -->
-        
-        <div class="examples-container">
-            <button class="btn btn-sm btn-outline-secondary mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#examplesCollapse" aria-expanded="false" aria-controls="examplesCollapse">
-                Show Example FIRs
+        <h1>JurisAI</h1>
+        <p class="subtitle">IPC Section Detection System</p>
+      </div>
+      <!-- <h1>IPC Section Detection System</h1> -->
+
+      <div class="examples-container">
+        <button
+          class="btn btn-sm btn-outline-secondary mb-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#examplesCollapse"
+          aria-expanded="false"
+          aria-controls="examplesCollapse"
+        >
+          Show Example FIRs
+        </button>
+        <div class="collapse" id="examplesCollapse">
+          <div class="card card-body">
+            <h6>Example 1: Theft</h6>
+            <p class="example-text small">
+              I would like to report that my mobile phone was stolen from my
+              pocket while traveling in a crowded bus. The incident happened at
+              public place. This occurred around evening. The accused is
+              unknown. I have evidence in the form of witnesses.
+            </p>
+            <button
+              class="btn btn-sm btn-outline-primary use-example"
+              data-example="1"
+            >
+              Use this example
             </button>
-            <div class="collapse" id="examplesCollapse">
-                <div class="card card-body">
-                    <h6>Example 1: Theft</h6>
-                    <p class="example-text small">I would like to report that my mobile phone was stolen from my pocket while traveling in a crowded bus. The incident happened at public place. This occurred around evening. The accused is unknown. I have evidence in the form of witnesses.</p>
-                    <button class="btn btn-sm btn-outline-primary use-example" data-example="1">Use this example</button>
-                    
-                    <hr>
-                    
-                    <h6>Example 2: Assault</h6>
-                    <p class="example-text small">I am filing this complaint regarding an incident where I was assaulted by the accused with a knife, causing injuries requiring hospitalization. The incident happened at market. This occurred around night. The accused is my neighbor. I have evidence in the form of medical reports.</p>
-                    <button class="btn btn-sm btn-outline-primary use-example" data-example="2">Use this example</button>
-                    
-                    <hr>
-                    
-                    <h6>Example 3: Kidnapping</h6>
-                    <p class="example-text small">I wish to file an FIR regarding the kidnapping of my 12-year-old son. He was abducted while returning from school yesterday. The kidnappers called me demanding a ransom of Rs. 5 lakhs. I have received threatening calls from an unknown number.</p>
-                    <button class="btn btn-sm btn-outline-primary use-example" data-example="3">Use this example</button>
-                    
-                    <hr>
-                    
-                    <h6>Example 4: Fraud</h6>
-                    <p class="example-text small">I would like to report a case of fraud where I was cheated of Rs. 50,000. The accused pretended to be a bank employee and tricked me into revealing my account details and OTP. The money was transferred from my account without my consent.</p>
-                    <button class="btn btn-sm btn-outline-primary use-example" data-example="4">Use this example</button>
-                </div>
-            </div>
+
+            <hr />
+
+            <h6>Example 2: Assault</h6>
+            <p class="example-text small">
+              I am filing this complaint regarding an incident where I was
+              assaulted by the accused with a knife, causing injuries requiring
+              hospitalization. The incident happened at market. This occurred
+              around night. The accused is my neighbor. I have evidence in the
+              form of medical reports.
+            </p>
+            <button
+              class="btn btn-sm btn-outline-primary use-example"
+              data-example="2"
+            >
+              Use this example
+            </button>
+
+            <hr />
+
+            <h6>Example 3: Kidnapping</h6>
+            <p class="example-text small">
+              I wish to file an FIR regarding the kidnapping of my 12-year-old
+              son. He was abducted while returning from school yesterday. The
+              kidnappers called me demanding a ransom of Rs. 5 lakhs. I have
+              received threatening calls from an unknown number.
+            </p>
+            <button
+              class="btn btn-sm btn-outline-primary use-example"
+              data-example="3"
+            >
+              Use this example
+            </button>
+
+            <hr />
+
+            <h6>Example 4: Fraud</h6>
+            <p class="example-text small">
+              I would like to report a case of fraud where I was cheated of Rs.
+              50,000. The accused pretended to be a bank employee and tricked me
+              into revealing my account details and OTP. The money was
+              transferred from my account without my consent.
+            </p>
+            <button
+              class="btn btn-sm btn-outline-primary use-example"
+              data-example="4"
+            >
+              Use this example
+            </button>
+          </div>
         </div>
-        <div class="mb-3">
-            <label for="firText" class="form-label">Enter FIR Complaint Text:</label>
-            <div class="input-group">
-                <textarea class="form-control" id="firText" rows="6" placeholder="Enter your FIR complaint text here..."></textarea>
-                <button id="voiceBtn" class="voice-btn" title="Click to start/stop voice input">
-                    <i class="voice-icon">🎤</i>
-                </button>
-            </div>
+      </div>
+      <div class="mb-3">
+        <label for="firText" class="form-label"
+          >Enter FIR Complaint Text:</label
+        >
+        <div class="input-group">
+          <textarea
+            class="form-control"
+            id="firText"
+            rows="6"
+            placeholder="Enter your FIR complaint text here..."
+          ></textarea>
+          <button
+            id="voiceBtn"
+            class="voice-btn"
+            title="Click to start/stop voice input"
+          >
+            <i class="voice-icon">🎤</i>
+          </button>
         </div>
-        <!-- <div class="mb-3">
+      </div>
+      <div class="mb-3">
+        <label for="processingMethod" class="form-label"
+          >Select Processing Method:</label
+        >
+        <select class="form-select" id="processingMethod">
+          <option value="model" selected>Use Trained Model</option>
+          <option value="gemini">Use Gemini API</option>
+        </select>
+      </div>
+      <!-- <div class="mb-3">
             <label for="firText" class="form-label">Enter FIR Complaint Text:</label>
             <textarea class="form-control" id="firText" rows="6" placeholder="Paste your FIR complaint text here..."></textarea>
         </div> -->
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            /* ... existing JavaScript code ... */
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          /* ... existing JavaScript code ... */
 
-            // Voice input functionality
-            const voiceBtn = document.getElementById('voiceBtn');
-            const firText = document.getElementById('firText');
-            let recognition;
-            let listening = false;
-            let finalTranscript = '';  // To store the final transcript
+          // Voice input functionality
+          const voiceBtn = document.getElementById("voiceBtn");
+          const firText = document.getElementById("firText");
+          let recognition;
+          let listening = false;
+          let finalTranscript = ""; // To store the final transcript
 
-            // Check if the browser supports the Web Speech API
-            if ('webkitSpeechRecognition' in window) {
-                recognition = new webkitSpeechRecognition();
-                recognition.continuous = false;  // Set to false for single-sentence input
-                recognition.interimResults = true;  // Handle interim results to avoid repetition
-                recognition.lang = 'en-IN';  // Set language to Indian English
+          // Check if the browser supports the Web Speech API
+          if ("webkitSpeechRecognition" in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false; // Set to false for single-sentence input
+            recognition.interimResults = true; // Handle interim results to avoid repetition
+            recognition.lang = "en-IN"; // Set language to Indian English
 
-                recognition.onstart = function() {
-                    listening = true;
-                    finalTranscript = '';  // Clear the final transcript at the start
-                    voiceBtn.classList.add('active');
-                    voiceBtn.title = "Click to stop voice input";
-                };
+            recognition.onstart = function () {
+              listening = true;
+              finalTranscript = ""; // Clear the final transcript at the start
+              voiceBtn.classList.add("active");
+              voiceBtn.title = "Click to stop voice input";
+            };
 
-                recognition.onerror = function(event) {
-                    console.error('Speech recognition error:', event.error);
-                    listening = false;
-                    voiceBtn.classList.remove('active');
-                    voiceBtn.title = "Click to start voice input";
-                };
+            recognition.onerror = function (event) {
+              console.error("Speech recognition error:", event.error);
+              listening = false;
+              voiceBtn.classList.remove("active");
+              voiceBtn.title = "Click to start voice input";
+            };
 
-                recognition.onend = function() {
-                    listening = false;
-                    voiceBtn.classList.remove('active');
-                    voiceBtn.title = "Click to start voice input";
-                };
+            recognition.onend = function () {
+              listening = false;
+              voiceBtn.classList.remove("active");
+              voiceBtn.title = "Click to start voice input";
+            };
 
-                recognition.onresult = function(event) {
-                    let interimTranscript = '';
-                    for (let i = event.resultIndex; i < event.results.length; ++i) {
-                        if (event.results[i].isFinal) {
-                            finalTranscript += event.results[i][0].transcript;
-                        } else {
-                            interimTranscript += event.results[i][0].transcript;
-                        }
-                    }
-                    firText.value = finalTranscript + interimTranscript;
-                };
+            recognition.onresult = function (event) {
+              let interimTranscript = "";
+              for (let i = event.resultIndex; i < event.results.length; ++i) {
+                if (event.results[i].isFinal) {
+                  finalTranscript += event.results[i][0].transcript;
+                } else {
+                  interimTranscript += event.results[i][0].transcript;
+                }
+              }
+              firText.value = finalTranscript + interimTranscript;
+            };
 
-                voiceBtn.addEventListener('click', function() {
-                    if (listening) {
-                        recognition.stop();
-                    } else {
-                        recognition.start();
-                    }
-                });
-            } else {
-                console.warn("Web Speech API is not supported in this browser.");
-                voiceBtn.style.display = 'none';  // Hide the button if not supported
-            }
-
+            voiceBtn.addEventListener("click", function () {
+              if (listening) {
+                recognition.stop();
+              } else {
+                recognition.start();
+              }
+            });
+          } else {
+            console.warn("Web Speech API is not supported in this browser.");
+            voiceBtn.style.display = "none"; // Hide the button if not supported
+          }
         });
-    </script>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-            <button id="predictBtn" class="btn btn-primary btn-lg">Predict IPC Sections</button>
-            <button id="clearBtn" class="btn btn-secondary btn-lg">Clear</button>
+      </script>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button id="predictBtn" class="btn btn-primary btn-lg">
+          Predict IPC Sections
+        </button>
+        <button id="clearBtn" class="btn btn-secondary btn-lg">Clear</button>
+      </div>
+
+      <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
         </div>
-        
-        <div class="loading-spinner" id="loadingSpinner">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Loading...</span>
+        <p class="mt-2">Analyzing complaint...</p>
+      </div>
+
+      <div id="resultSection">
+        <div id="categoriesContainer" class="detected-categories">
+          <h5 class="mb-3">Detected Crime Categories:</h5>
+          <div id="categoriesList"></div>
+        </div>
+
+        <h3 class="mb-4">Predicted IPC Sections:</h3>
+        <div id="sectionsContainer"></div>
+      </div>
+
+      <div class="row" id="chartsSection">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Confidence Levels</h5>
+              <canvas id="confidenceChart"></canvas>
             </div>
-            <p class="mt-2">Analyzing complaint...</p>
+          </div>
         </div>
-        
-        <div id="resultSection">
-            <div id="categoriesContainer" class="detected-categories">
-                <h5 class="mb-3">Detected Crime Categories:</h5>
-                <div id="categoriesList"></div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Section Categories</h5>
+              <canvas id="categoryChart"></canvas>
             </div>
-            
-            <h3 class="mb-4">Predicted IPC Sections:</h3>
-            <div id="sectionsContainer"></div>
+          </div>
         </div>
-        
-        <div class="row" id="chartsSection">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Confidence Levels</h5>
-                        <canvas id="confidenceChart"></canvas>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Section Categories</h5>
-                        <canvas id="categoryChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer">
-            <p>This tool is for informational purposes only and should not be considered legal advice.</p>
-            <p>Always consult with a qualified legal professional for accurate legal guidance.</p>
-        </div>
+      </div>
+
+      <div class="footer">
+        <p>
+          This tool is for informational purposes only and should not be
+          considered legal advice.
+        </p>
+        <p>
+          Always consult with a qualified legal professional for accurate legal
+          guidance.
+        </p>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const predictBtn = document.getElementById('predictBtn');
-            const clearBtn = document.getElementById('clearBtn');
-            const firText = document.getElementById('firText');
-            const loadingSpinner = document.getElementById('loadingSpinner');
-            const resultSection = document.getElementById('resultSection');
-            const sectionsContainer = document.getElementById('sectionsContainer');
-            const categoriesContainer = document.getElementById('categoriesContainer');
-            const categoriesList = document.getElementById('categoriesList');
-            const chartsSection = document.getElementById('chartsSection');
-            const exampleButtons = document.querySelectorAll('.use-example');
-            
-            // Example FIRs
-            const examples = {
-                "1": "I would like to report that my mobile phone was stolen from my pocket while traveling in a crowded bus. The incident happened at public place. This occurred around evening. The accused is unknown. I have evidence in the form of witnesses.",
-                "2": "I am filing this complaint regarding an incident where I was assaulted by the accused with a knife, causing injuries requiring hospitalization. The incident happened at market. This occurred around night. The accused is my neighbor. I have evidence in the form of medical reports.",
-                "3": "I wish to file an FIR regarding the kidnapping of my 12-year-old son. He was abducted while returning from school yesterday. The kidnappers called me demanding a ransom of Rs. 5 lakhs. I have received threatening calls from an unknown number.",
-                "4": "I would like to report a case of fraud where I was cheated of Rs. 50,000. The accused pretended to be a bank employee and tricked me into revealing my account details and OTP. The money was transferred from my account without my consent."
-            };
-            
-            // Use example FIR
-            exampleButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const exampleId = this.getAttribute('data-example');
-                    firText.value = examples[exampleId];
-                    // Collapse the examples panel
-                    const bsCollapse = bootstrap.Collapse.getInstance(document.getElementById('examplesCollapse'));
-                    if (bsCollapse) bsCollapse.hide();
-                });
+      document.addEventListener("DOMContentLoaded", function () {
+        const predictBtn = document.getElementById("predictBtn");
+        const clearBtn = document.getElementById("clearBtn");
+        const firText = document.getElementById("firText");
+        const loadingSpinner = document.getElementById("loadingSpinner");
+        const resultSection = document.getElementById("resultSection");
+        const sectionsContainer = document.getElementById("sectionsContainer");
+        const categoriesContainer = document.getElementById(
+          "categoriesContainer"
+        );
+        const categoriesList = document.getElementById("categoriesList");
+        const chartsSection = document.getElementById("chartsSection");
+        const exampleButtons = document.querySelectorAll(".use-example");
+
+        // Example FIRs
+        const examples = {
+          1: "I would like to report that my mobile phone was stolen from my pocket while traveling in a crowded bus. The incident happened at public place. This occurred around evening. The accused is unknown. I have evidence in the form of witnesses.",
+          2: "I am filing this complaint regarding an incident where I was assaulted by the accused with a knife, causing injuries requiring hospitalization. The incident happened at market. This occurred around night. The accused is my neighbor. I have evidence in the form of medical reports.",
+          3: "I wish to file an FIR regarding the kidnapping of my 12-year-old son. He was abducted while returning from school yesterday. The kidnappers called me demanding a ransom of Rs. 5 lakhs. I have received threatening calls from an unknown number.",
+          4: "I would like to report a case of fraud where I was cheated of Rs. 50,000. The accused pretended to be a bank employee and tricked me into revealing my account details and OTP. The money was transferred from my account without my consent.",
+        };
+
+        // Use example FIR
+        exampleButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const exampleId = this.getAttribute("data-example");
+            firText.value = examples[exampleId];
+            // Collapse the examples panel
+            const bsCollapse = bootstrap.Collapse.getInstance(
+              document.getElementById("examplesCollapse")
+            );
+            if (bsCollapse) bsCollapse.hide();
+          });
+        });
+
+        // Predict button click handler
+        predictBtn.addEventListener("click", async function () {
+          const method = document.getElementById("processingMethod").value; // Get the selected method
+          const text = firText.value.trim();
+
+          if (!text) {
+            alert("Please enter the FIR complaint text.");
+            return;
+          }
+
+          // Show loading spinner
+          loadingSpinner.style.display = "block";
+          resultSection.style.display = "none";
+          chartsSection.style.display = "none";
+
+          try {
+            // Determine the endpoint based on the selected method
+            const endpoint = method === "gemini" ? "/gemini" : "/predict";
+
+            // Send FIR text to the backend
+            const response = await fetch(endpoint, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ fir_text: text }),
             });
-            
-            // Predict button click handler
-            predictBtn.addEventListener('click', async function() {
-                const text = firText.value.trim();
-                
-                if (!text) {
-                    alert('Please enter the FIR complaint text.');
-                    return;
-                }
-                
-                // Show loading spinner
-                loadingSpinner.style.display = 'block';
-                resultSection.style.display = 'none';
-                chartsSection.style.display = 'none';
-                
-                try {
-                    const response = await fetch('/predict', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ fir_text: text })
-                    });
-                    
-                    const data = await response.json();
-                    
-                    // Hide loading spinner
-                    loadingSpinner.style.display = 'none';
-                    
-                    if (data.error) {
-                        alert('Error: ' + data.error);
-                        return;
-                    }
-                    
-                    // Display detected categories
-                    categoriesList.innerHTML = '';
-                    if (data.detected_categories && data.detected_categories.length > 0) {
-                        data.detected_categories.forEach(category => {
-                            const categoryTag = document.createElement('span');
-                            categoryTag.className = 'category-tag';
-                            categoryTag.textContent = category;
-                            categoriesList.appendChild(categoryTag);
-                        });
-                        categoriesContainer.style.display = 'block';
-                    } else {
-                        categoriesContainer.style.display = 'none';
-                    }
-                    
-                    // Display results
-                    sectionsContainer.innerHTML = '';
-                    
-                    if (data.sections && data.sections.length > 0) {
-                        data.sections.forEach(section => {
-                            const sectionCard = document.createElement('div');
-                            sectionCard.className = section.category_match ? 
-                                'section-card category-match' : 'section-card';
-                            
-                            // Create badges for cognizable and bailable status
-                            const cognizableBadge = `<span class="badge ${section.cognizable === 'Cognizable' ? 'badge-cognizable' : 'badge-non-cognizable'}">${section.cognizable}</span>`;
-                            const bailableBadge = `<span class="badge ${section.bailable === 'Bailable' ? 'badge-bailable' : 'badge-non-bailable'}">${section.bailable}</span>`;
-                            
-                            // Create relevance indicator
-                            const probability = parseFloat(section.probability.replace('%', '')) / 100;
-                            const relevanceClass = probability > 0.7 ? '' : 'low';
-                            const relevanceIndicator = `<span class="relevance-indicator ${relevanceClass}">Relevance: ${section.probability}</span>`;
-                            
-                            // Create confidence bar
-                            const confidenceBar = `
+
+            const data = await response.json();
+
+            // Hide loading spinner
+            loadingSpinner.style.display = "none";
+
+            if (data.error) {
+              alert("Error: " + data.error);
+              return;
+            }
+
+            // Display detected categories
+            categoriesList.innerHTML = "";
+            if (
+              data.detected_categories &&
+              data.detected_categories.length > 0
+            ) {
+              data.detected_categories.forEach((category) => {
+                const categoryTag = document.createElement("span");
+                categoryTag.className = "category-tag";
+                categoryTag.textContent = category;
+                categoriesList.appendChild(categoryTag);
+              });
+              categoriesContainer.style.display = "block";
+            } else {
+              categoriesContainer.style.display = "none";
+            }
+
+            // Display results
+            sectionsContainer.innerHTML = "";
+
+            if (data.sections && data.sections.length > 0) {
+              data.sections.forEach((section) => {
+                const sectionCard = document.createElement("div");
+                sectionCard.className = section.category_match
+                  ? "section-card category-match"
+                  : "section-card";
+
+                // Create badges for cognizable and bailable status
+                const cognizableBadge = `<span class="badge ${
+                  section.cognizable === "Cognizable"
+                    ? "badge-cognizable"
+                    : "badge-non-cognizable"
+                }">${section.cognizable}</span>`;
+                const bailableBadge = `<span class="badge ${
+                  section.bailable === "Bailable"
+                    ? "badge-bailable"
+                    : "badge-non-bailable"
+                }">${section.bailable}</span>`;
+
+                // Create relevance indicator
+                const probability =
+                  parseFloat(section.probability.replace("%", "")) / 100;
+                const relevanceClass = probability > 0.7 ? "" : "low";
+                const relevanceIndicator = `<span class="relevance-indicator ${relevanceClass}">Relevance: ${section.probability}</span>`;
+
+                // Create confidence bar
+                const confidenceBar = `
                                 <div class="confidence-bar">
-                                    <label class="form-label">Confidence: ${section.probability}</label>
+                                    <label class="form-label">Confidence: ${
+                                      section.probability
+                                    }</label>
                                     <div class="progress">
-                                        <div class="progress-bar ${probability > 0.7 ? 'bg-success' : 'bg-warning'}" role="progressbar" 
-                                            style="width: ${section.probability};" 
-                                            aria-valuenow="${probability * 100}" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar ${
+                                          probability > 0.7
+                                            ? "bg-success"
+                                            : "bg-warning"
+                                        }" role="progressbar" 
+                                            style="width: ${
+                                              section.probability
+                                            };" 
+                                            aria-valuenow="${
+                                              probability * 100
+                                            }" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             `;
-                            
-                            sectionCard.innerHTML = `
+
+                sectionCard.innerHTML = `
                                 <div class="section-title">
                                     ${section.section}
-                                    <span class="category-badge">${section.category || 'Uncategorized'}</span>
+                                    <span class="category-badge">${
+                                      section.category || "Uncategorized"
+                                    }</span>
                                 </div>
                                 <div class="section-badges">
                                     ${cognizableBadge} ${bailableBadge} ${relevanceIndicator}
@@ -608,135 +732,201 @@
                                 </div>
                                 <div class="section-details">
                                     <div class="detail-item">
-                                        <span class="detail-label">Description:</span> ${section.description}
+                                        <span class="detail-label">Description:</span> ${
+                                          section.description
+                                        }
                                     </div>
                                     <div class="detail-item">
-                                        <span class="detail-label">Punishment:</span> ${section.punishment}
+                                        <span class="detail-label">Punishment:</span> ${
+                                          section.punishment
+                                        }
                                     </div>
                                     <div class="detail-item">
-                                        <span class="detail-label">Court:</span> ${section.court}
+                                        <span class="detail-label">Court:</span> ${
+                                          section.court
+                                        }
                                     </div>
                                 </div>
                                 ${confidenceBar}
                             `;
-                            
-                            sectionsContainer.appendChild(sectionCard);
-                        });
-                        
-                        // Create charts
-                        createCharts(data.sections, data.detected_categories);
-                        chartsSection.style.display = 'flex';
-                    } else {
-                        sectionsContainer.innerHTML = '<div class="alert alert-warning">No relevant IPC sections found. Please provide more details in your complaint.</div>';
-                        chartsSection.style.display = 'none';
-                    }
-                    
-                    resultSection.style.display = 'block';
-                    
-                } catch (error) {
-                    console.error('Error:', error);
-                    loadingSpinner.style.display = 'none';
-                    alert('An error occurred while processing your request. Please try again later.');
-                }
-            });
-            
-            // Clear button click handler
-            clearBtn.addEventListener('click', function() {
-                firText.value = '';
-                resultSection.style.display = 'none';
-                chartsSection.style.display = 'none';
-            });
-            
-            // Function to create charts
-function createCharts(sections) {
-    // Ensure previous charts exist before destroying them
-    if (window.confidenceChart && typeof window.confidenceChart.destroy === "function") {
-        window.confidenceChart.destroy();
-    }
-    if (window.categoryChart && typeof window.categoryChart.destroy === "function") {
-        window.categoryChart.destroy();
-    }
 
-    // Confidence Chart
-    const confidenceCtx = document.getElementById('confidenceChart').getContext('2d');
-    const sectionLabels = sections.map(s => s.section);
-    const confidenceValues = sections.map(s => parseFloat(s.probability.replace('%', '')));
+                sectionsContainer.appendChild(sectionCard);
+              });
 
-    window.confidenceChart = new Chart(confidenceCtx, {
-        type: 'bar',
-        data: {
-            labels: sectionLabels,
-            datasets: [{
-                label: 'Confidence Level (%)',
-                data: confidenceValues,
-                backgroundColor: 'rgba(54, 162, 235, 0.7)',
-                borderColor: 'rgba(54, 162, 235, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    max: 100
-                }
+              // Create charts
+              createCharts(data.sections, data.detected_categories);
+              chartsSection.style.display = "flex";
+            } 
+            else {
+              sectionsContainer.innerHTML =
+                '<div class="alert alert-warning">No relevant IPC sections found. Please provide more details in your complaint.</div>';
+              chartsSection.style.display = "none";
             }
+
+            resultSection.style.display = "block";
+          } catch (error) {
+            console.error("Error:", error);
+            loadingSpinner.style.display = "none";
+            alert(
+              "An error occurred while processing your request. Please try again later."
+            );
+          }
+        });
+
+        // Clear button click handler
+        clearBtn.addEventListener("click", function () {
+          firText.value = "";
+          resultSection.style.display = "none";
+          chartsSection.style.display = "none";
+        });
+
+        // Function to create charts
+        function createCharts(sections) {
+          // Ensure previous charts exist before destroying them
+          if (
+            window.confidenceChart &&
+            typeof window.confidenceChart.destroy === "function"
+          ) {
+            window.confidenceChart.destroy();
+          }
+          if (
+            window.categoryChart &&
+            typeof window.categoryChart.destroy === "function"
+          ) {
+            window.categoryChart.destroy();
+          }
+
+          // Confidence Chart
+          const confidenceCtx = document
+            .getElementById("confidenceChart")
+            .getContext("2d");
+          const sectionLabels = sections.map((s) => s.section);
+          const confidenceValues = sections.map((s) =>
+            parseFloat(s.probability.replace("%", ""))
+          );
+
+          window.confidenceChart = new Chart(confidenceCtx, {
+            type: "bar",
+            data: {
+              labels: sectionLabels,
+              datasets: [
+                {
+                  label: "Confidence Level (%)",
+                  data: confidenceValues,
+                  backgroundColor: "rgba(54, 162, 235, 0.7)",
+                  borderColor: "rgba(54, 162, 235, 1)",
+                  borderWidth: 1,
+                },
+              ],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  max: 100,
+                },
+              },
+            },
+          });
+
+          // Section Category Chart
+          const categoryCtx = document
+            .getElementById("categoryChart")
+            .getContext("2d");
+          const categories = {
+            "Crimes Against Person": 0,
+            "Property Crimes": 0,
+            "Public Order": 0,
+            Other: 0,
+          };
+
+          sections.forEach((section) => {
+            const sectionNum = parseInt(
+              section.section.replace("Section ", "")
+            );
+            if (sectionNum >= 299 && sectionNum <= 377) {
+              categories["Crimes Against Person"]++;
+            } else if (sectionNum >= 378 && sectionNum <= 462) {
+              categories["Property Crimes"]++;
+            } else if (sectionNum >= 141 && sectionNum <= 160) {
+              categories["Public Order"]++;
+            } else {
+              categories["Other"]++;
+            }
+          });
+
+          window.categoryChart = new Chart(categoryCtx, {
+            type: "pie",
+            data: {
+              labels: Object.keys(categories),
+              datasets: [
+                {
+                  data: Object.values(categories),
+                  backgroundColor: [
+                    "rgba(255, 99, 132, 0.7)",
+                    "rgba(54, 162, 235, 0.7)",
+                    "rgba(255, 206, 86, 0.7)",
+                    "rgba(75, 192, 192, 0.7)",
+                  ],
+                  borderColor: [
+                    "rgba(255, 99, 132, 1)",
+                    "rgba(54, 162, 235, 1)",
+                    "rgba(255, 206, 86, 1)",
+                    "rgba(75, 192, 192, 1)",
+                  ],
+                  borderWidth: 1,
+                },
+              ],
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+            },
+          });
         }
-    });
+      });
+    </script>
+    <script>
+      document
+        .getElementById("processBtn")
+        .addEventListener("click", async function () {
+          const firText = document.getElementById("firText").value;
+          const method = document.getElementById("processingMethod").value;
 
-    // Section Category Chart
-    const categoryCtx = document.getElementById('categoryChart').getContext('2d');
-    const categories = {
-        'Crimes Against Person': 0,
-        'Property Crimes': 0,
-        'Public Order': 0,
-        'Other': 0
-    };
+          if (!firText) {
+            alert("Please enter FIR complaint text.");
+            return;
+          }
 
-    sections.forEach(section => {
-        const sectionNum = parseInt(section.section.replace('Section ', ''));
-        if (sectionNum >= 299 && sectionNum <= 377) {
-            categories['Crimes Against Person']++;
-        } else if (sectionNum >= 378 && sectionNum <= 462) {
-            categories['Property Crimes']++;
-        } else if (sectionNum >= 141 && sectionNum <= 160) {
-            categories['Public Order']++;
-        } else {
-            categories['Other']++;
-        }
-    });
+          // Clear previous results
+          document.getElementById("result").innerHTML =
+            "<p class='text-muted'>Processing...</p>";
 
-    window.categoryChart = new Chart(categoryCtx, {
-        type: 'pie',
-        data: {
-            labels: Object.keys(categories),
-            datasets: [{
-                data: Object.values(categories),
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.7)',
-                    'rgba(54, 162, 235, 0.7)',
-                    'rgba(255, 206, 86, 0.7)',
-                    'rgba(75, 192, 192, 0.7)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)'
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false
-        }
-    });
-}
+          // Determine the endpoint based on the selected method
+          const endpoint = method === "gemini" ? "/gemini" : "/predict";
 
+          // Send FIR text to the backend
+          const response = await fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ fir_text: firText }),
+          });
+
+          const result = await response.json();
+
+          // Display results
+          if (response.ok) {
+            document.getElementById(
+              "result"
+            ).innerHTML = `<pre>${JSON.stringify(result, null, 2)}</pre>`;
+          } else {
+            document.getElementById(
+              "result"
+            ).innerHTML = `<p class="text-danger">Error: ${result.error}</p>`;
+          }
         });
     </script>
-</body>
+  </body>
 </html>

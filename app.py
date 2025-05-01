@@ -12,6 +12,9 @@ import sqlite3
 from flask_mail import Mail, Message
 from twilio.rest import Client
 import random
+import json
+import requests
+
 
 # Get absolute path to this file's directory
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -583,6 +586,128 @@ def predict():
     except Exception as e:
         print(f"Error: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
+@app.route('/gemini', methods=['POST'])
+def gemini_predict():
+    try:
+        # Get FIR text from request
+        data = request.get_json()
+        fir_text = data.get('fir_text', '')
+
+        if not fir_text:
+            return jsonify({'success': False, 'error': 'No FIR text provided'}), 400
+
+        # Call Gemini API
+        gemini_result = process_with_gemini(fir_text)
+
+        # Directly return the result as JSON
+        return jsonify(gemini_result)
+
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+
+def process_with_gemini(fir_text):
+    try:
+        gemini_api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        gemini_api_key = "AIzaSyA1OhwStr1ZIwsQc20asmfRRX38YAecGS0"  # Replace with your real API key
+
+        # The prompt we send to Gemini API
+        prompt = f"""
+        You are an expert legal assistant. Given the following FIR complaint, predict which Indian Penal Code (IPC) sections apply.
+
+        For each section, return:
+        {{
+            "section": "IPC 420",
+            "category": "Cheating",
+            "offense": "Cheating and dishonestly inducing delivery of property",
+            "description": "Obtaining property by deception",
+            "punishment": "Up to 7 years imprisonment and fine",
+            "court": "Magistrate Court",
+            "confidence": 85
+        }}
+
+        Also, give a list of detected crime categories (like ["Theft", "Assault"]).
+
+        FIR: {fir_text}
+
+        Format the full response as:
+        {{
+            "sections": [ ... ],
+            "detected_crimes": [ ... ]
+        }}
+        """
+
+        # Define the JSON payload to match the curl format
+        payload = {
+            "contents": [
+                {
+                    "parts": [
+                        {
+                            "text": prompt
+                        }
+                    ]
+                }
+            ]
+        }
+
+        # Define the headers to match the curl format
+        headers = {
+            "Content-Type": "application/json"
+        }
+
+        # Print payload and headers for debugging
+        print("Sending request to Gemini API with payload:", json.dumps(payload, indent=2))
+        print("Using headers:", headers)
+
+        # Make the API request
+        response = requests.post(
+            f"{gemini_api_url}?key={gemini_api_key}",
+            headers=headers,
+            json=payload,
+            timeout=30  # 30 seconds timeout
+        )
+
+        # Print response status code and content for debugging
+        print("Response Status Code:", response.status_code)
+        print("Response Text:", response.text)
+
+        # Check if the response is successful (HTTP Status 200)
+        if response.status_code == 200:
+            data = response.json()
+
+            # Extract the response text
+            candidates = data.get('candidates', [])
+            if not candidates:
+                return {'success': False, 'error': 'No candidates returned by Gemini API'}
+
+            result_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+            if not result_text:
+                return {'success': False, 'error': 'No content in Gemini API response'}
+
+            # Format the result for the frontend
+            result = {
+                'success': True,
+                'fir_text': fir_text,
+                'predictions': result_text
+            }
+
+            return result
+        else:
+            # Handle response failure
+            return {
+                'success': False,
+                'error': 'Failed to process with Gemini API',
+                'details': response.text
+            }
+
+    except Exception as e:
+        return {
+            'success': False,
+            'error': 'An error occurred while using Gemini API',
+            'details': str(e)
+        }
 
 # Test endpoint for specific crime types
 @app.route('/test-case', methods=['POST'])
