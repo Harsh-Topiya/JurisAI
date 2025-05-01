@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, redirect, url_for
+from flask import Flask, request, jsonify, render_template, redirect, url_for, session
 import joblib
 import pandas as pd
 import re
@@ -34,25 +34,40 @@ conn = sqlite3.connect('users.db')
 cursor = conn.cursor()
 
 # Create users table
+# cursor.execute('''
+# CREATE TABLE IF NOT EXISTS users (
+#     id INTEGER PRIMARY KEY AUTOINCREMENT,
+#     username TEXT NOT NULL,
+#     password TEXT NOT NULL,
+#     email TEXT NOT NULL,
+#     mobile TEXT NOT NULL,
+#     aadhaar TEXT NOT NULL
+# )
+# ''')
+
+# Add a sample user (for testing purposes)
+# cursor.execute('''
+# INSERT INTO users (username, password, email, mobile, aadhaar)
+# VALUES ('testuser', 'testpassword', 'testuser@example.com', '1234567890', '123456789012')
+# ''')
+
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT NOT NULL,
     password TEXT NOT NULL,
-    email TEXT NOT NULL,
-    mobile TEXT NOT NULL,
     aadhaar TEXT NOT NULL
 )
 ''')
-
-# Add a sample user (for testing purposes)
 cursor.execute('''
-INSERT INTO users (username, password, email, mobile, aadhaar)
-VALUES ('testuser', 'testpassword', 'testuser@example.com', '1234567890', '123456789012')
+INSERT INTO users (username, password, aadhaar)
+VALUES ('testuser', 'testpassword', '123456789012')
 ''')
-
 conn.commit()
 conn.close()
+
+# Session key 
+app.secret_key = 'e5b8c3a7d9f4e2a1b6c8d7e9f0a2b3c4'  # Replace with a secure random key
 
 # Load the balanced model
 try:
@@ -344,7 +359,10 @@ def check_for_robbery(text):
 
 @app.route('/')
 def home():
-    return render_template('index.html')    
+    if 'logged_in' in session and session['logged_in']:
+        return render_template('index.html')
+    else:
+        return redirect(url_for('login'))   
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -370,11 +388,58 @@ def login():
 
         # Validate credentials
         if user or aadhaar_user:
+            # Set session variable
+            session['logged_in'] = True
+            session['username'] = username
             return jsonify({'message': 'Login successful! Redirecting...'}), 200
         else:
             return jsonify({'message': 'Invalid credentials, please try again.'}), 401
-
+    
     return render_template('login.html')
+
+@app.route('/signup', methods=['POST'])
+def signup():
+    try:
+        # Get form data
+        username = request.form.get('username')
+        password = request.form.get('password')
+        # email = request.form.get('email')
+        # mobile = request.form.get('mobile')
+        aadhaar = request.form.get('aadhaar')
+
+        # Connect to the database
+        conn = sqlite3.connect('users.db')
+        cursor = conn.cursor()
+
+        # Check if the username or Aadhaar already exists
+        cursor.execute('SELECT * FROM users WHERE username = ? OR aadhaar = ?', (username, aadhaar))
+        existing_user = cursor.fetchone()
+
+        if existing_user:
+            return jsonify({'message': 'Username or Aadhaar already exists. Please try again.'}), 400
+
+        # Insert the new user into the database
+        # cursor.execute('''
+        # INSERT INTO users (username, password, email, mobile, aadhaar)
+        # VALUES (?, ?, ?, ?, ?)
+        # ''', (username, password, email, mobile, aadhaar))
+        cursor.execute('''
+        INSERT INTO users (username, password, aadhaar)
+        VALUES (?, ?, ?)
+        ''', (username, password, aadhaar))
+        conn.commit()
+        conn.close()
+
+        return jsonify({'message': 'Signup successful! You can now log in.'}), 200
+
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return jsonify({'message': 'An error occurred during signup. Please try again.'}), 500
+
+@app.route('/logout')
+def logout():
+    session.clear()  # Clear all session data
+    return redirect(url_for('login'))
 
 @app.route('/predict', methods=['POST'])
 def predict():

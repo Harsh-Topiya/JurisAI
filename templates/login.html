@@ -637,11 +637,11 @@
         <p class="subtitle">IPC Section Detection System</p>
       </div>
 
-      <form id="loginForm" method="POST" action="/login">
+      <!-- Sign In Form -->
+      <form id="loginForm" method="POST" action="/login" style="display: block">
         <div class="form-group">
           <label for="username" class="form-label">Username</label>
           <i class="fas fa-user input-icon"></i>
-          <div class="scan-line"></div>
           <input
             type="text"
             class="form-control"
@@ -654,7 +654,6 @@
         <div class="form-group">
           <label for="password" class="form-label">Password</label>
           <i class="fas fa-lock input-icon"></i>
-          <div class="scan-line"></div>
           <input
             type="password"
             class="form-control"
@@ -663,13 +662,9 @@
             placeholder="Enter your password"
           />
         </div>
-
-        <div class="divider">OR</div>
-
         <div class="form-group">
           <label for="aadhaar" class="form-label">Aadhaar Number</label>
           <i class="fas fa-id-card input-icon"></i>
-          <div class="scan-line"></div>
           <input
             type="text"
             class="form-control"
@@ -678,14 +673,101 @@
             placeholder="Enter your Aadhaar number"
           />
         </div>
-
         <button type="submit" class="btn btn-primary">
           <span>Sign In</span>
           <div class="btn-hover-effect"></div>
           <i class="fas fa-arrow-right ms-2"></i>
         </button>
+        <p class="text-center mt-3">
+          Not a user? <a href="#" id="showSignup">Sign Up</a>
+        </p>
       </form>
+
       <div id="loginMessage" class="mt-3"></div>
+
+      
+
+      <!-- Sign Up Form -->
+      <form
+        id="signupForm"
+        method="POST"
+        action="/signup"
+        style="display: none"
+      >
+        <div class="form-group">
+          <label for="signupUsername" class="form-label">Username</label>
+          <i class="fas fa-user input-icon"></i>
+          <input
+            type="text"
+            class="form-control"
+            id="signupUsername"
+            name="username"
+            placeholder="Enter your username"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="signupPassword" class="form-label">Password</label>
+          <i class="fas fa-lock input-icon"></i>
+          <input
+            type="password"
+            class="form-control"
+            id="signupPassword"
+            name="password"
+            placeholder="Enter your password"
+          />
+        </div>
+
+        <!-- <div class="form-group">
+          <label for="signupEmail" class="form-label">Email</label>
+          <i class="fas fa-envelope input-icon"></i>
+          <input
+            type="email"
+            class="form-control"
+            id="signupEmail"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="signupMobile" class="form-label">Mobile</label>
+          <i class="fas fa-phone input-icon"></i>
+          <input
+            type="text"
+            class="form-control"
+            id="signupMobile"
+            name="mobile"
+            placeholder="Enter your mobile number"
+          />
+        </div> -->
+
+        <div class="form-group">
+          <label for="signupAadhaar" class="form-label">Aadhaar</label>
+          <i class="fas fa-id-card input-icon"></i>
+          <input
+            type="text"
+            class="form-control"
+            id="signupAadhaar"
+            name="aadhaar"
+            placeholder="Enter your Aadhaar number"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <span>Sign Up</span>
+          <div class="btn-hover-effect"></div>
+          <i class="fas fa-user-plus ms-2"></i>
+        </button>
+
+        <p class="text-center mt-3">
+          Already a user? <a href="#" id="showLogin">Sign In</a>
+        </p>
+      </form>
+
+      <div id="signupMessage" class="mt-3"></div>
+
+      
     </div>
 
     <script>
@@ -751,6 +833,46 @@
             loginMessage.innerHTML = `<div class='alert alert-danger'><i class='fas fa-exclamation-circle me-2'></i> ${result.message}</div>`;
           }
         });
+
+      // Handle signup form submission
+      document
+        .getElementById("signupForm")
+        .addEventListener("submit", async function (event) {
+          event.preventDefault();
+
+          const formData = new FormData(event.target);
+          const response = await fetch("/signup", {
+            method: "POST",
+            body: formData,
+          });
+
+          const result = await response.json();
+          const signupMessage = document.getElementById("signupMessage");
+
+          if (response.status === 200) {
+            signupMessage.innerHTML = `<div class='alert alert-success'><i class='fas fa-check-circle me-2'></i> ${result.message}</div>`;
+          } else {
+            signupMessage.innerHTML = `<div class='alert alert-danger'><i class='fas fa-exclamation-circle me-2'></i> ${result.message}</div>`;
+          }
+        });
+
+      // Toggle between Sign In and Sign Up forms
+      const loginForm = document.getElementById("loginForm");
+      const signupForm = document.getElementById("signupForm");
+      const showSignup = document.getElementById("showSignup");
+      const showLogin = document.getElementById("showLogin");
+
+      showSignup.addEventListener("click", function (event) {
+        event.preventDefault();
+        loginForm.style.display = "none";
+        signupForm.style.display = "block";
+      });
+
+      showLogin.addEventListener("click", function (event) {
+        event.preventDefault();
+        signupForm.style.display = "none";
+        loginForm.style.display = "block";
+      });
     </script>
   </body>
 </html>
