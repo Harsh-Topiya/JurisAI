@@ -559,7 +559,7 @@ def predict():
             elif "assault" in detected_crimes or "hurt" in detected_crimes:
                 fallback_sections = ["Section 323", "Section 324", "Section 506"]  # Default assault sections
             else:
-                fallback_sections = ["Section 323", "Section 506"]  # Generic fallback
+                fallback_sections = []  # Generic fallback
                 
             for section in fallback_sections:
                 section_info = ipc_reference.get(section, {})
