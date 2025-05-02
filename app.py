@@ -15,6 +15,7 @@ import random
 import json
 import requests
 from openpyxl import Workbook, load_workbook
+import re
 
 # Get absolute path to this file's directory
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -420,6 +421,12 @@ def login():
         conn = sqlite3.connect('users.db')
         cursor = conn.cursor()
 
+        if password:
+            password_regex = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$'
+            if not re.match(password_regex, password):
+                return jsonify({'message': 'Invalid password format. Please use a strong password.'}), 400
+
+
         # Case 1: Login with Aadhaar number only
         if aadhaar and not username and not password:
             if not aadhaar.isdigit() or len(aadhaar) != 12:
@@ -473,7 +480,11 @@ def signup():
         if not aadhaar.isdigit() or len(aadhaar) != 12:
             return jsonify({'message': 'Invalid Aadhaar number. It must be 12 digits.'}), 400
 
-
+         # Validate password strength
+        password_regex = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$'
+        if not re.match(password_regex, password):
+            return jsonify({'message': 'Password must contain at least one uppercase letter, one lowercase letter, one digit, one special character, and be at least 6 characters long.'}), 400
+        
         # Connect to the database
         conn = sqlite3.connect('users.db')
         cursor = conn.cursor()
