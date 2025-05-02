@@ -380,6 +380,9 @@ def login():
         password = request.form.get('password')
         aadhaar = request.form.get('aadhaar')
 
+        if not aadhaar.isdigit() or len(aadhaar) != 12:
+            return jsonify({'message': 'Invalid Aadhaar number. It must be 12 digits.'}), 400
+        
         # Connect to the database
         conn = sqlite3.connect('users.db')
         cursor = conn.cursor()
@@ -414,6 +417,10 @@ def signup():
         # email = request.form.get('email')
         # mobile = request.form.get('mobile')
         aadhaar = request.form.get('aadhaar')
+
+        if not aadhaar.isdigit() or len(aadhaar) != 12:
+            return jsonify({'message': 'Invalid Aadhaar number. It must be 12 digits.'}), 400
+
 
         # Connect to the database
         conn = sqlite3.connect('users.db')
