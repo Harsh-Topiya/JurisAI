@@ -14,7 +14,7 @@ from twilio.rest import Client
 import random
 import json
 import requests
-
+from openpyxl import Workbook, load_workbook
 
 # Get absolute path to this file's directory
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -575,13 +575,20 @@ def predict():
                         'category': section_info.get('category', ''),
                         'probability': "70.00%"  # Default probability
                     })
-        
+        username = session.get('username')  # Get the logged-in user's username from the session
+        if username:
+            print(f"Saving to Excel for user: {username}")
+            print(f"FIR Text: {fir_text}")
+            print(f"IPC Sections: {all_sections}")
+            save_to_excel(username, fir_text, list(all_sections))
+
         return jsonify({
             'success': True,
             'sections': results,
             'fir_text': fir_text,
             'detected_crimes': detected_crimes
         })
+    
     
     except Exception as e:
         print(f"Error: {str(e)}")
@@ -599,6 +606,15 @@ def gemini_predict():
 
         # Call Gemini API
         gemini_result = process_with_gemini(fir_text)
+
+        if gemini_result.get('success'):
+            ipc_sections = gemini_result.get('sections', [])
+            username = session.get('username')  # Get the logged-in user's username from the session
+            if username:
+                print(f"Saving to Excel for user: {username}")
+                print(f"FIR Text: {fir_text}")
+                print(f"IPC Sections: {ipc_sections}")
+                save_to_excel(username, fir_text, ipc_sections)
 
         # Directly return the result as JSON
         return jsonify(gemini_result)
@@ -709,6 +725,36 @@ def process_with_gemini(fir_text):
             'details': str(e)
         }
 
+
+def save_to_excel(username, fir_text, ipc_sections):
+    """Save FIR complaint and IPC sections to an Excel file under the logged-in user."""
+    try:
+        # Define the file path for the user's Excel file
+        file_path = f"{username}_fir_data.xlsx"
+
+        # Extract only the section names if ipc_sections contains tuples
+        ipc_sections = [section if isinstance(section, str) else section[0] for section in ipc_sections]
+
+        # Check if the file already exists
+        if os.path.exists(file_path):
+            # Load the existing workbook
+            workbook = load_workbook(file_path)
+            sheet = workbook.active
+        else:
+            # Create a new workbook and add headers
+            workbook = Workbook()
+            sheet = workbook.active
+            sheet.append(["FIR Complaint", "Predicted IPC Sections"])  # Add headers
+
+        # Add the FIR complaint and IPC sections to the sheet
+        sheet.append([fir_text, ", ".join(ipc_sections)])
+
+        # Save the workbook
+        workbook.save(file_path)
+        print(f"Excel file saved successfully at {file_path}")
+
+    except Exception as e:
+        print(f"Error saving to Excel: {str(e)}")
 # Test endpoint for specific crime types
 @app.route('/test-case', methods=['POST'])
 def test_case():
