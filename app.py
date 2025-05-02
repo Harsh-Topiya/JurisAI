@@ -372,6 +372,42 @@ def home():
     else:
         return redirect(url_for('login'))   
 
+# @app.route('/login', methods=['GET', 'POST'])
+# def login():
+#     if request.method == 'POST':
+#         # Get form data
+#         username = request.form.get('username')
+#         password = request.form.get('password')
+#         aadhaar = request.form.get('aadhaar')
+
+#         if not aadhaar.isdigit() or len(aadhaar) != 12:
+#             return jsonify({'message': 'Invalid Aadhaar number. It must be 12 digits.'}), 400
+        
+#         # Connect to the database
+#         conn = sqlite3.connect('users.db')
+#         cursor = conn.cursor()
+
+#         # Check if username and password match
+#         cursor.execute('SELECT * FROM users WHERE username = ? AND password = ?', (username, password))
+#         user = cursor.fetchone()
+
+#         # Check if Aadhaar matches
+#         cursor.execute('SELECT * FROM users WHERE aadhaar = ?', (aadhaar,))
+#         aadhaar_user = cursor.fetchone()
+
+#         conn.close()
+
+#         # Validate credentials
+#         if user or aadhaar_user:
+#             # Set session variable
+#             session['logged_in'] = True
+#             session['username'] = username
+#             return jsonify({'message': 'Login successful! Redirecting...'}), 200
+#         else:
+#             return jsonify({'message': 'Invalid credentials, please try again.'}), 401
+    
+#     return render_template('login.html')
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -380,32 +416,48 @@ def login():
         password = request.form.get('password')
         aadhaar = request.form.get('aadhaar')
 
-        if not aadhaar.isdigit() or len(aadhaar) != 12:
-            return jsonify({'message': 'Invalid Aadhaar number. It must be 12 digits.'}), 400
-        
         # Connect to the database
         conn = sqlite3.connect('users.db')
         cursor = conn.cursor()
 
-        # Check if username and password match
-        cursor.execute('SELECT * FROM users WHERE username = ? AND password = ?', (username, password))
-        user = cursor.fetchone()
+        # Case 1: Login with Aadhaar number only
+        if aadhaar and not username and not password:
+            if not aadhaar.isdigit() or len(aadhaar) != 12:
+                return jsonify({'message': 'Invalid Aadhaar number. It must be 12 digits.'}), 400
 
-        # Check if Aadhaar matches
-        cursor.execute('SELECT * FROM users WHERE aadhaar = ?', (aadhaar,))
-        aadhaar_user = cursor.fetchone()
+            # Fetch the username associated with the Aadhaar number
+            cursor.execute('SELECT username FROM users WHERE aadhaar = ?', (aadhaar,))
+            user = cursor.fetchone()
 
-        conn.close()
+            if user:
+                username = user[0]  # Extract the username
+                session['logged_in'] = True
+                session['username'] = username
+                conn.close()
+                return jsonify({'message': f'Login successful! Welcome, {username}.'}), 200
+            else:
+                conn.close()
+                return jsonify({'message': 'Invalid Aadhaar number. No user found.'}), 401
 
-        # Validate credentials
-        if user or aadhaar_user:
-            # Set session variable
-            session['logged_in'] = True
-            session['username'] = username
-            return jsonify({'message': 'Login successful! Redirecting...'}), 200
+        # Case 2: Login with username and password
+        elif username and password:
+            cursor.execute('SELECT * FROM users WHERE username = ? AND password = ?', (username, password))
+            user = cursor.fetchone()
+
+            if user:
+                session['logged_in'] = True
+                session['username'] = username
+                conn.close()
+                return jsonify({'message': f'Login successful! Welcome, {username}.'}), 200
+            else:
+                conn.close()
+                return jsonify({'message': 'Invalid username or password.'}), 401
+
+        # If neither case is satisfied
         else:
-            return jsonify({'message': 'Invalid credentials, please try again.'}), 401
-    
+            conn.close()
+            return jsonify({'message': 'Please provide either Aadhaar number or username and password.'}), 400
+
     return render_template('login.html')
 
 @app.route('/signup', methods=['POST'])
